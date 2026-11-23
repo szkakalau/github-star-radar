@@ -359,6 +359,29 @@ def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
     return "\n".join(lines)
 
 
+def render_issue_comment(rows: list[dict], meta: dict, repo: str, top_n: int = 10) -> str:
+    """Short push notification body for the daily Issue comment."""
+    lines = [
+        f"## 涨星榜 {meta['generated_at'][:10]}",
+        "",
+        f"扫描 {meta['candidates']} 个新仓 → {meta['valid']} 个有效 → 过滤 {meta['flagged']} 个刷量；Top {min(top_n, len(rows))}：",
+        "",
+        "| # | 项目 | 当前 Star | 近3日斜率 | 趋势 |",
+        "|---:|---|---:|---:|---|",
+    ]
+    for i, r in enumerate(rows[:top_n], 1):
+        ratio = "" if r["trend_ratio"] is None else f" {r['trend_ratio']:.2f}x"
+        lines.append(
+            f"| {i} | [{r['full_name']}]({r['url']}) | {r['stars_now']:,} | "
+            f"{r['slope_recent']:.0f}/天 | {r['trend']}{ratio} |"
+        )
+    lines += [
+        "",
+        f"完整榜单（含统计口径）：https://github.com/{repo}/blob/main/output/README.md",
+    ]
+    return "\n".join(lines)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN", ""))
@@ -431,6 +454,11 @@ def main() -> int:
     out_dir = Path(args.output_dir)
     (out_dir / "history").mkdir(parents=True, exist_ok=True)
     (out_dir / "README.md").write_text(markdown, encoding="utf-8")
+
+    repo = os.environ.get("GITHUB_REPOSITORY", "szkakalau/github-star-radar")
+    (out_dir / "issue_comment.md").write_text(
+        render_issue_comment(results, meta, repo, top_n=10), encoding="utf-8"
+    )
 
     snapshot = {
         "meta": meta,
