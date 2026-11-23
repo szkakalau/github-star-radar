@@ -27,7 +27,7 @@ jobs:
       - name: Run monitor
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python monitor.py --candidates 250 --top 30
+        run: python monitor.py --candidates 150 --top 20
 
       - name: Commit results
         run: |

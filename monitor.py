@@ -187,7 +187,9 @@ def analyze(repo: dict, history: list[dict], now: dt.datetime,
     ratio = None
     if len(cumulative_curve) >= 2 * window:
         slope_prior = ols_slope(cumulative_curve[-2 * window:-window])
-        if abs(slope_prior) > 1e-9:
+        # A near-zero prior slope makes the ratio explode (e.g. 111x) and
+        # misleads readers. Require the denominator to be materially sized.
+        if abs(slope_prior) >= max(1.0, abs(slope_recent) * 0.05):
             ratio = slope_recent / slope_prior
             trend = "加速" if ratio > 1.2 else "减速" if ratio < 0.8 else "平稳"
         else:
@@ -221,7 +223,7 @@ def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
         "",
         f"> 共扫描 {meta['candidates']} 个候选项目，有效 {meta['valid']} 个，下列为前 {min(top_n, len(rows))} 名。",
         "",
-        "| # | 项目 | 创建时间 | 当前 Star | 累计增长 | 最新完整日新增 | 今日(未完) | 日均新增 | 近7日斜率 | 趋势 |",
+        f"| # | 项目 | 创建时间 | 当前 Star | 累计增长 | 最新完整日新增 | 今日(未完) | 日均新增 | 近{meta['window_days']}日斜率 | 趋势 |",
         "|---:|---|---|---:|---:|---:|---:|---:|---:|---|",
     ]
     for i, r in enumerate(rows[:top_n], 1):
@@ -243,8 +245,8 @@ def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
         "- **累计增长**：`history` 全量日增量之和，即从 0 Star 起累计；等于当前 Star 的近似值（取消星会被回溯剔除，可能与当前总数有小幅偏差）。",
         "- **每日新增**：`days[]` 展开到具体日期；今日数据尚未结束，单独标注为「今日(未完)」，不参与斜率计算。",
         "- **日均新增**：累计增长 ÷ 存活天数（向下取整，至少 1 天）。",
-        "- **涨星速度（主排序）**：最近 `min(7, 可用完整日数)` 日的**累计曲线最小二乘斜率**（Star/天），反映当下速度而非历史总量。",
-        "- **趋势**：近窗口斜率 ÷ 前一等长窗口斜率；>1.2 加速，<0.8 减速，否则平稳；不足两个窗口记「样本不足」。",
+        f"- **涨星速度（主排序）**：最近 `min({meta['window_days']}, 可用完整日数)` 日的**累计曲线最小二乘斜率**（Star/天），反映当下速度而非历史总量。",
+        "- **趋势**：近窗口斜率 ÷ 前一等长窗口斜率；>1.2 加速，<0.8 减速，否则平稳；不足两个窗口记「样本不足」；前窗口斜率接近 0 时不除，改记「新爆发」，避免出现失真比值。",
         "- **时效**：每日 UTC 08:00（北京时间 16:00）自动更新一次；榜单为无状态重算，每次重写，历史快照另存 `output/history/`。",
         "",
         "## 已知局限",
@@ -260,12 +262,12 @@ def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN", ""))
-    parser.add_argument("--lookback-days", type=int, default=30)
+    parser.add_argument("--lookback-days", type=int, default=10)
     parser.add_argument("--min-stars", type=int, default=50)
     parser.add_argument("--min-age-days", type=int, default=1)
-    parser.add_argument("--candidates", type=int, default=300)
-    parser.add_argument("--window-days", type=int, default=7)
-    parser.add_argument("--top", type=int, default=30)
+    parser.add_argument("--candidates", type=int, default=150)
+    parser.add_argument("--window-days", type=int, default=3)
+    parser.add_argument("--top", type=int, default=20)
     parser.add_argument("--output-dir", default="output")
     parser.add_argument("--dry-run", action="store_true", help="print table only, write nothing")
     args = parser.parse_args()
@@ -303,6 +305,7 @@ def main() -> int:
         "generated_at_iso": now.isoformat(),
         "lookback_days": args.lookback_days,
         "min_stars": args.min_stars,
+        "window_days": args.window_days,
         "window_start": (now.date() - dt.timedelta(days=args.lookback_days)).isoformat(),
         "window_end": now.date().isoformat(),
         "candidates": len(candidates),
