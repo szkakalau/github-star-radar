@@ -13,12 +13,15 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import math
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections import defaultdict
 from pathlib import Path
 
 API = "https://api.github.com"
@@ -215,13 +218,109 @@ def analyze(repo: dict, history: list[dict], now: dt.datetime,
     }
 
 
+# --- Promotion-matrix / star-farming detection -----------------------------
+# Bulk-promoted repos leave a statistical fingerprint: many independent repos
+# with near-identical daily star shapes and tightly clustered star totals.
+# A name keyword alone is NOT sufficient (would misfire on genuine -win ports).
+
+DESC_TEMPLATE = re.compile(
+    r"^(figma|jetbrains|adobe|autodesk|microsoft|metaquotes|nitro|bbc|rob run|autocad|substance|pycharm|intellij|metatrader)\b",
+    re.I,
+)
+NAME_WIN_SUFFIX = re.compile(r"-win$|windows?-(pro|full|crack)|-(crack|keygen|activator)$", re.I)
+
+
+def shape_vector(row: dict, days: int = 5) -> list[float] | None:
+    """Normalized recent daily-star shape; None if too short to compare."""
+    vals = [v for _, v in sorted(row["series"].items())][-days:]
+    if len(vals) < 3:
+        return None
+    total = sum(vals)
+    if total <= 0:
+        return None
+    return [v / total for v in vals]
+
+
+def cosine(a: list[float], b: list[float]) -> float:
+    dot = sum(x * y for x, y in zip(a, b))
+    na = math.sqrt(sum(x * x for x in a))
+    nb = math.sqrt(sum(x * x for x in b))
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def detect_promotion(rows: list[dict], sim: float = 0.985, min_group: int = 3,
+                     star_spread: float = 0.12) -> tuple[list[dict], list[dict]]:
+    """Split rows into (clean, flagged) using shape clustering + known patterns.
+
+    A repo is flagged if it either:
+      (a) joins a cluster of >=3 repos with near-identical star shapes AND
+          tightly clustered star totals (the bulk-matrix fingerprint), or
+      (b) matches a known template description combined with a -win/crack name.
+
+    Genuine爆发 projects have distinct curves, so they do not cluster.
+    """
+    parent = {r["full_name"]: r["full_name"] for r in rows}
+
+    def find(x: str) -> str:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a: str, b: str) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    by_name = {r["full_name"]: r for r in rows}
+    vectors = {}
+    for r in rows:
+        vec = shape_vector(r)
+        if vec:
+            vectors[r["full_name"]] = vec
+
+    names = list(vectors)
+    for i in range(len(names)):
+        for j in range(i + 1, len(names)):
+            a, b = names[i], names[j]
+            if len(vectors[a]) != len(vectors[b]):
+                continue
+            if cosine(vectors[a], vectors[b]) < sim:
+                continue
+            sa = by_name[a]["stars_now"]
+            sb = by_name[b]["stars_now"]
+            if abs(sa - sb) / max(sa, sb, 1) > star_spread:
+                continue
+            union(a, b)
+
+    groups: dict[str, list[str]] = defaultdict(list)
+    for n in vectors:
+        groups[find(n)].append(n)
+
+    flagged: dict[str, str] = {}
+    for root, members in groups.items():
+        if len(members) >= min_group:
+            for n in members:
+                flagged[n] = f"shape_cluster({len(members)})"
+
+    # Secondary rule: known template descriptions paired with promo-style names.
+    for r in rows:
+        name = r["full_name"].split("/", 1)[-1]
+        if NAME_WIN_SUFFIX.search(name) and DESC_TEMPLATE.match(r["description"]):
+            flagged.setdefault(r["full_name"], "template_desc+name")
+
+    clean = [r for r in rows if r["full_name"] not in flagged]
+    flagged_rows = [dict(r, flag=flagged[r["full_name"]]) for r in rows if r["full_name"] in flagged]
+    return clean, flagged_rows
+
+
 def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
     lines = [
         "# GitHub 新项目涨星榜",
         "",
         f"**统计时间**：{meta['generated_at']}　|　**更新频率**：每日一次　|　**窗口**：创建 ≤ {meta['lookback_days']} 天",
         "",
-        f"> 共扫描 {meta['candidates']} 个候选项目，有效 {meta['valid']} 个，下列为前 {min(top_n, len(rows))} 名。",
+        f"> 共扫描 {meta['candidates']} 个候选项目，有效 {meta['valid']} 个，另过滤 {meta['flagged']} 个疑似推广矩阵／刷量仓库，下列为前 {min(top_n, len(rows))} 名。",
         "",
         f"| # | 项目 | 创建时间 | 当前 Star | 累计增长 | 最新完整日新增 | 今日(未完) | 日均新增 | 近{meta['window_days']}日斜率 | 趋势 |",
         "|---:|---|---|---:|---:|---:|---:|---:|---:|---|",
@@ -248,6 +347,7 @@ def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
         f"- **涨星速度（主排序）**：最近 `min({meta['window_days']}, 可用完整日数)` 日的**累计曲线最小二乘斜率**（Star/天），反映当下速度而非历史总量。",
         "- **趋势**：近窗口斜率 ÷ 前一等长窗口斜率；>1.2 加速，<0.8 减速，否则平稳；不足两个窗口记「样本不足」；前窗口斜率接近 0 时不除，改记「新爆发」，避免出现失真比值。",
         "- **时效**：每日 UTC 08:00（北京时间 16:00）自动更新一次；榜单为无状态重算，每次重写，历史快照另存 `output/history/`。",
+        "- **刷量过滤**：近 5 日归一化日增形态余弦相似度 ≥0.985、且当前星数差 ≤12% 的仓库若聚集 ≥3 个，判为推广矩阵；另叠加已知模板描述＋`-win/crack` 名称规则。命中项从榜单剔除，明细（仓库名/原因/星数）保留在当日 JSON 快照的 `meta.flagged_detail`，可复核。",
         "",
         "## 已知局限",
         "",
@@ -300,6 +400,12 @@ def main() -> int:
             log(f"  [{idx}/{len(candidates)}] {len(results)} valid")
 
     results.sort(key=lambda r: r["slope_recent"], reverse=True)
+    clean, flagged = detect_promotion(results)
+    log(f"promotion filter: {len(flagged)} flagged / {len(results)} valid")
+    for r in flagged[:12]:
+        log(f"  FLAGGED {r['full_name']} [{r['flag']}] stars={r['stars_now']}")
+    results = clean
+
     meta = {
         "generated_at": now.strftime("%Y-%m-%d %H:%M UTC"),
         "generated_at_iso": now.isoformat(),
@@ -310,6 +416,11 @@ def main() -> int:
         "window_end": now.date().isoformat(),
         "candidates": len(candidates),
         "valid": len(results),
+        "flagged": len(flagged),
+        "flagged_detail": [
+            {"full_name": r["full_name"], "flag": r["flag"], "stars": r["stars_now"]}
+            for r in flagged
+        ],
     }
 
     markdown = render_markdown(results, meta, args.top)
