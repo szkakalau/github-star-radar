@@ -314,6 +314,22 @@ def detect_promotion(rows: list[dict], sim: float = 0.985, min_group: int = 3,
     return clean, flagged_rows
 
 
+def one_line_desc(row: dict, limit: int) -> str:
+    """Clean, truncate the repo description into a single table cell."""
+    desc = " ".join((row.get("description") or "").split())
+    if not desc:
+        return "—"
+    desc = desc.replace("|", "/").replace("[", "").replace("]", "")
+    if len(desc) > limit:
+        cut = desc[:limit]
+        # Prefer a word boundary so the sentence is not sliced mid-word.
+        space = cut.rfind(" ")
+        if space >= limit // 2:
+            cut = cut[:space]
+        return cut.rstrip(" ,;:.") + "…"
+    return desc
+
+
 def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
     lines = [
         "# GitHub 新项目涨星榜",
@@ -322,15 +338,16 @@ def render_markdown(rows: list[dict], meta: dict, top_n: int) -> str:
         "",
         f"> 共扫描 {meta['candidates']} 个候选项目，有效 {meta['valid']} 个，另过滤 {meta['flagged']} 个疑似推广矩阵／刷量仓库，下列为前 {min(top_n, len(rows))} 名。",
         "",
-        f"| # | 项目 | 创建时间 | 当前 Star | 累计增长 | 最新完整日新增 | 今日(未完) | 日均新增 | 近{meta['window_days']}日斜率 | 趋势 |",
-        "|---:|---|---|---:|---:|---:|---:|---:|---:|---|",
+        f"| # | 项目 | 一句话介绍 | 创建时间 | 当前 Star | 累计增长 | 最新完整日新增 | 今日(未完) | 日均新增 | 近{meta['window_days']}日斜率 | 趋势 |",
+        "|---:|---|---|---|---:|---:|---:|---:|---:|---:|---|",
     ]
     for i, r in enumerate(rows[:top_n], 1):
         name = f"[{r['full_name']}]({r['url']})"
+        desc = one_line_desc(r, 90)
         today_partial = "—" if r["daily_today_partial"] is None else f"{r['daily_today_partial']:,}"
         ratio = "" if r["trend_ratio"] is None else f" ({r['trend_ratio']:.2f}x)"
         lines.append(
-            f"| {i} | {name} | {r['created_at'][:10]} | {r['stars_now']:,} | "
+            f"| {i} | {name} | {desc} | {r['created_at'][:10]} | {r['stars_now']:,} | "
             f"{r['cumulative']:,} | {r['daily_latest']:,} | {today_partial} | "
             f"{r['daily_avg']:.1f} | {r['slope_recent']:.1f} | {r['trend']}{ratio} |"
         )
@@ -366,14 +383,14 @@ def render_issue_comment(rows: list[dict], meta: dict, repo: str, top_n: int = 1
         "",
         f"扫描 {meta['candidates']} 个新仓 → {meta['valid']} 个有效 → 过滤 {meta['flagged']} 个刷量；Top {min(top_n, len(rows))}：",
         "",
-        "| # | 项目 | 当前 Star | 近3日斜率 | 趋势 |",
-        "|---:|---|---:|---:|---|",
+        "| # | 项目 | 一句话介绍 | 当前 Star | 近3日斜率 | 趋势 |",
+        "|---:|---|---|---:|---:|---|",
     ]
     for i, r in enumerate(rows[:top_n], 1):
         ratio = "" if r["trend_ratio"] is None else f" {r['trend_ratio']:.2f}x"
         lines.append(
-            f"| {i} | [{r['full_name']}]({r['url']}) | {r['stars_now']:,} | "
-            f"{r['slope_recent']:.0f}/天 | {r['trend']}{ratio} |"
+            f"| {i} | [{r['full_name']}]({r['url']}) | {one_line_desc(r, 48)} | "
+            f"{r['stars_now']:,} | {r['slope_recent']:.0f}/天 | {r['trend']}{ratio} |"
         )
     lines += [
         "",
