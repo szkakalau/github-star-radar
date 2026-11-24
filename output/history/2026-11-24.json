@@ -1,0 +1,589 @@
+{
+  "meta": {
+    "generated_at": "2026-11-24 19:27 UTC",
+    "generated_at_iso": "2026-11-24T19:27:39.681558+00:00",
+    "lookback_days": 10,
+    "min_stars": 50,
+    "window_days": 3,
+    "window_start": "2026-11-14",
+    "window_end": "2026-11-24",
+    "candidates": 150,
+    "valid": 92,
+    "flagged": 20,
+    "flagged_detail": [
+      {
+        "full_name": "fujc683/seedance-2-5-flash-free-tier",
+        "flag": "shape_cluster(11)",
+        "stars": 456
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-api-proxy",
+        "flag": "shape_cluster(11)",
+        "stars": 447
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-alternatives",
+        "flag": "shape_cluster(11)",
+        "stars": 444
+      },
+      {
+        "full_name": "fujc683/cheap-video-api",
+        "flag": "shape_cluster(11)",
+        "stars": 440
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-reference-video",
+        "flag": "shape_cluster(11)",
+        "stars": 444
+      },
+      {
+        "full_name": "fujc683/ai-video-api-gateway",
+        "flag": "shape_cluster(11)",
+        "stars": 433
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-api",
+        "flag": "shape_cluster(11)",
+        "stars": 438
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-camera-movements",
+        "flag": "shape_cluster(11)",
+        "stars": 438
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-pricing",
+        "flag": "shape_cluster(11)",
+        "stars": 434
+      },
+      {
+        "full_name": "fujc683/awesome-seedance-2-5-flash-prompts",
+        "flag": "shape_cluster(11)",
+        "stars": 392
+      },
+      {
+        "full_name": "Adabi0304/studioonepro7-release",
+        "flag": "shape_cluster(9)",
+        "stars": 341
+      },
+      {
+        "full_name": "dillithdillith4-cell/autodesk-cfd",
+        "flag": "shape_cluster(9)",
+        "stars": 340
+      },
+      {
+        "full_name": "vinujak/phantom-blade-zero-modifier",
+        "flag": "shape_cluster(9)",
+        "stars": 340
+      },
+      {
+        "full_name": "cr4zyp4ul/quicken-deluxe",
+        "flag": "shape_cluster(9)",
+        "stars": 339
+      },
+      {
+        "full_name": "Dhruv2710-hub/cellebrite-ufed",
+        "flag": "shape_cluster(9)",
+        "stars": 340
+      },
+      {
+        "full_name": "eastspaper6-cmyk/ninjatrader-bot",
+        "flag": "shape_cluster(9)",
+        "stars": 339
+      },
+      {
+        "full_name": "darthvader097br-ctrl/acronis-standalone-bundle",
+        "flag": "shape_cluster(9)",
+        "stars": 340
+      },
+      {
+        "full_name": "youssefco1999-hash/aiseesoft-launch-pro",
+        "flag": "shape_cluster(9)",
+        "stars": 339
+      },
+      {
+        "full_name": "juniordroid/better-discord-client",
+        "flag": "shape_cluster(9)",
+        "stars": 340
+      },
+      {
+        "full_name": "YellowLaborerMarket/Gemini-Config-Checker-",
+        "flag": "shape_cluster(11)",
+        "stars": 466
+      }
+    ]
+  },
+  "ranking": [
+    {
+      "full_name": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "created_at": "2026-11-20T20:03:21Z",
+      "age_days": 3,
+      "stars_now": 7553,
+      "cumulative": 7553,
+      "daily_latest": 4662,
+      "daily_today_partial": 2547,
+      "daily_avg": 2517.6666666666665,
+      "slope_recent": 2466.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "created_at": "2026-11-21T14:40:27Z",
+      "age_days": 3,
+      "stars_now": 3555,
+      "cumulative": 3556,
+      "daily_latest": 964,
+      "daily_today_partial": 236,
+      "daily_avg": 1185.3333333333333,
+      "slope_recent": 1478.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "created_at": "2026-11-20T10:18:31Z",
+      "age_days": 4,
+      "stars_now": 3201,
+      "cumulative": 3201,
+      "daily_latest": 2158,
+      "daily_today_partial": 628,
+      "daily_avg": 800.25,
+      "slope_recent": 1286.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "created_at": "2026-11-22T12:05:54Z",
+      "age_days": 2,
+      "stars_now": 1713,
+      "cumulative": 1713,
+      "daily_latest": 893,
+      "daily_today_partial": 147,
+      "daily_avg": 856.5,
+      "slope_recent": 893.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "description": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "created_at": "2026-11-15T11:16:46Z",
+      "age_days": 9,
+      "stars_now": 4382,
+      "cumulative": 4382,
+      "daily_latest": 1428,
+      "daily_today_partial": 520,
+      "daily_avg": 486.8888888888889,
+      "slope_recent": 806.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 2.642622950819672
+    },
+    {
+      "full_name": "pierridotite/mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "created_at": "2026-11-16T19:11:44Z",
+      "age_days": 8,
+      "stars_now": 1764,
+      "cumulative": 1764,
+      "daily_latest": 659,
+      "daily_today_partial": 183,
+      "daily_avg": 220.5,
+      "slope_recent": 762.0,
+      "slope_window": 3,
+      "trend": "新爆发",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "created_at": "2026-11-16T12:10:36Z",
+      "age_days": 8,
+      "stars_now": 9155,
+      "cumulative": 9155,
+      "daily_latest": 685,
+      "daily_today_partial": 259,
+      "daily_avg": 1144.375,
+      "slope_recent": 661.5,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.4411470490163388
+    },
+    {
+      "full_name": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "created_at": "2026-11-21T23:16:41Z",
+      "age_days": 2,
+      "stars_now": 2457,
+      "cumulative": 2457,
+      "daily_latest": 1188,
+      "daily_today_partial": 1187,
+      "daily_avg": 1228.5,
+      "slope_recent": 634.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "deterministic-machines/deslop-please",
+      "url": "https://github.com/deterministic-machines/deslop-please",
+      "description": "Bring (back) sanity to your code",
+      "created_at": "2026-11-22T05:36:03Z",
+      "age_days": 2,
+      "stars_now": 627,
+      "cumulative": 627,
+      "daily_latest": 406,
+      "daily_today_partial": 221,
+      "daily_avg": 313.5,
+      "slope_recent": 406.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "omonkeyz/xbox-emulator",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "description": "Progress notes for running Xbox Series X/S builds on PC (TomBox + rage9)",
+      "created_at": "2026-11-21T08:08:39Z",
+      "age_days": 3,
+      "stars_now": 1793,
+      "cumulative": 1793,
+      "daily_latest": 333,
+      "daily_today_partial": 76,
+      "daily_avg": 597.6666666666666,
+      "slope_recent": 402.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "erkamyaman/safe-anything",
+      "url": "https://github.com/erkamyaman/safe-anything",
+      "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+      "created_at": "2026-11-22T16:44:10Z",
+      "age_days": 2,
+      "stars_now": 609,
+      "cumulative": 609,
+      "daily_latest": 372,
+      "daily_today_partial": 72,
+      "daily_avg": 304.5,
+      "slope_recent": 372.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "R0Y00/Xbox2Windows",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "description": "Static recompilation research for Xbox Series X/S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+      "created_at": "2026-11-20T17:43:52Z",
+      "age_days": 4,
+      "stars_now": 1879,
+      "cumulative": 1879,
+      "daily_latest": 343,
+      "daily_today_partial": 186,
+      "daily_avg": 469.75,
+      "slope_recent": 333.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Ahmet-Dedeler/awesome-gta6-reverse-engineering",
+      "url": "https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering",
+      "description": "Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9 archive explorers, TTPF texture & ADAT/AWC audio decoders, format docs, and Xbox Series / PS5 translation layers.",
+      "created_at": "2026-11-21T17:08:48Z",
+      "age_days": 3,
+      "stars_now": 675,
+      "cumulative": 675,
+      "daily_latest": 371,
+      "daily_today_partial": 55,
+      "daily_avg": 225.0,
+      "slope_recent": 298.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "created_at": "2026-11-22T18:50:17Z",
+      "age_days": 2,
+      "stars_now": 764,
+      "cumulative": 764,
+      "daily_latest": 290,
+      "daily_today_partial": 426,
+      "daily_avg": 382.0,
+      "slope_recent": 290.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "created_at": "2026-11-19T04:58:46Z",
+      "age_days": 5,
+      "stars_now": 1132,
+      "cumulative": 1127,
+      "daily_latest": 198,
+      "daily_today_partial": 299,
+      "daily_avg": 225.4,
+      "slope_recent": 286.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "created_at": "2026-11-16T18:40:04Z",
+      "age_days": 8,
+      "stars_now": 2501,
+      "cumulative": 2501,
+      "daily_latest": 332,
+      "daily_today_partial": 166,
+      "daily_avg": 312.625,
+      "slope_recent": 276.5,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 2.5136363636363637
+    },
+    {
+      "full_name": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "created_at": "2026-11-19T10:00:43Z",
+      "age_days": 5,
+      "stars_now": 2458,
+      "cumulative": 2458,
+      "daily_latest": 168,
+      "daily_today_partial": 118,
+      "daily_avg": 491.6,
+      "slope_recent": 249.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "leanprover-community/riemann-hypothesis",
+      "url": "https://github.com/leanprover-community/riemann-hypothesis",
+      "description": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
+      "created_at": "2026-11-20T14:47:49Z",
+      "age_days": 4,
+      "stars_now": 1012,
+      "cumulative": 1012,
+      "daily_latest": 237,
+      "daily_today_partial": 88,
+      "daily_avg": 253.0,
+      "slope_recent": 228.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "qianyiai/kurocat",
+      "url": "https://github.com/qianyiai/kurocat",
+      "description": "KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative, Tauri v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Linux·Android）",
+      "created_at": "2026-11-21T15:49:31Z",
+      "age_days": 3,
+      "stars_now": 597,
+      "cumulative": 597,
+      "daily_latest": 236,
+      "daily_today_partial": 138,
+      "daily_avg": 199.0,
+      "slope_recent": 220.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Lemxy/WinRust",
+      "url": "https://github.com/Lemxy/WinRust",
+      "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+      "created_at": "2026-11-17T14:27:06Z",
+      "age_days": 7,
+      "stars_now": 1448,
+      "cumulative": 1448,
+      "daily_latest": 126,
+      "daily_today_partial": 42,
+      "daily_avg": 206.85714285714286,
+      "slope_recent": 213.0,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.6604651162790698
+    }
+  ],
+  "series": {
+    "xcl-dev/xcl": {
+      "2026-11-22": 271,
+      "2026-11-23": 4662,
+      "2026-11-24": 2547,
+      "2026-11-20": 0,
+      "2026-11-21": 73
+    },
+    "EL4CTEO/fast-anything": {
+      "2026-11-22": 1992,
+      "2026-11-23": 964,
+      "2026-11-24": 236,
+      "2026-11-21": 364
+    },
+    "AFK-surf/xnulinux": {
+      "2026-11-22": 415,
+      "2026-11-23": 2158,
+      "2026-11-24": 628,
+      "2026-11-20": 0,
+      "2026-11-21": 0
+    },
+    "os6/nospeaker": {
+      "2026-11-22": 673,
+      "2026-11-23": 893,
+      "2026-11-24": 147
+    },
+    "Hut-hzf/ung220z-tool": {
+      "2026-11-22": 184,
+      "2026-11-23": 1428,
+      "2026-11-24": 520,
+      "2026-11-15": 33,
+      "2026-11-16": 42,
+      "2026-11-17": 548,
+      "2026-11-18": 853,
+      "2026-11-19": 363,
+      "2026-11-20": 247,
+      "2026-11-21": 164
+    },
+    "pierridotite/mobile-agent-testers": {
+      "2026-11-22": 865,
+      "2026-11-23": 659,
+      "2026-11-24": 183,
+      "2026-11-16": 17,
+      "2026-11-17": 14,
+      "2026-11-18": 11,
+      "2026-11-19": 4,
+      "2026-11-20": 3,
+      "2026-11-21": 8
+    },
+    "erkamyaman/rust-anything": {
+      "2026-11-22": 638,
+      "2026-11-23": 685,
+      "2026-11-24": 259,
+      "2026-11-16": 1,
+      "2026-11-17": 1962,
+      "2026-11-18": 1904,
+      "2026-11-19": 1778,
+      "2026-11-20": 1221,
+      "2026-11-21": 707
+    },
+    "4lwayz/portwatch-vi": {
+      "2026-11-22": 81,
+      "2026-11-23": 1188,
+      "2026-11-24": 1187,
+      "2026-11-21": 1
+    },
+    "deterministic-machines/deslop-please": {
+      "2026-11-22": 0,
+      "2026-11-23": 406,
+      "2026-11-24": 221
+    },
+    "omonkeyz/xbox-emulator": {
+      "2026-11-22": 471,
+      "2026-11-23": 333,
+      "2026-11-24": 76,
+      "2026-11-21": 913
+    },
+    "erkamyaman/safe-anything": {
+      "2026-11-22": 165,
+      "2026-11-23": 372,
+      "2026-11-24": 72
+    },
+    "R0Y00/Xbox2Windows": {
+      "2026-11-22": 323,
+      "2026-11-23": 343,
+      "2026-11-24": 186,
+      "2026-11-20": 2,
+      "2026-11-21": 1025
+    },
+    "Ahmet-Dedeler/awesome-gta6-reverse-engineering": {
+      "2026-11-22": 225,
+      "2026-11-23": 371,
+      "2026-11-24": 55,
+      "2026-11-21": 24
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "2026-11-22": 48,
+      "2026-11-23": 290,
+      "2026-11-24": 426
+    },
+    "INK-Q/agy-fast": {
+      "2026-11-22": 375,
+      "2026-11-23": 198,
+      "2026-11-24": 299,
+      "2026-11-19": 34,
+      "2026-11-20": 168,
+      "2026-11-21": 53
+    },
+    "sybil-solutions/inference-optimisation-skill": {
+      "2026-11-22": 221,
+      "2026-11-23": 332,
+      "2026-11-24": 166,
+      "2026-11-16": 401,
+      "2026-11-17": 576,
+      "2026-11-18": 178,
+      "2026-11-19": 113,
+      "2026-11-20": 107,
+      "2026-11-21": 407
+    },
+    "iamajmeena/neonclipping": {
+      "2026-11-22": 331,
+      "2026-11-23": 168,
+      "2026-11-24": 118,
+      "2026-11-19": 656,
+      "2026-11-20": 727,
+      "2026-11-21": 458
+    },
+    "leanprover-community/riemann-hypothesis": {
+      "2026-11-22": 219,
+      "2026-11-23": 237,
+      "2026-11-24": 88,
+      "2026-11-20": 239,
+      "2026-11-21": 229
+    },
+    "qianyiai/kurocat": {
+      "2026-11-22": 205,
+      "2026-11-23": 236,
+      "2026-11-24": 138,
+      "2026-11-21": 18
+    },
+    "Lemxy/WinRust": {
+      "2026-11-22": 300,
+      "2026-11-23": 126,
+      "2026-11-24": 42,
+      "2026-11-17": 80,
+      "2026-11-18": 72,
+      "2026-11-19": 347,
+      "2026-11-20": 298,
+      "2026-11-21": 183
+    }
+  }
+}
