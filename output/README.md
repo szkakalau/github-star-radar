@@ -1,35 +1,35 @@
 # GitHub 新项目涨星榜
 
-**统计时间**：2026-11-24 19:27 UTC　|　**更新频率**：每日一次　|　**窗口**：创建 ≤ 10 天
+**统计时间**：2026-11-25 18:36 UTC　|　**更新频率**：每日一次　|　**窗口**：创建 ≤ 10 天
 
-> 共扫描 150 个候选项目，有效 92 个，另过滤 20 个疑似推广矩阵／刷量仓库，下列为前 20 名。
+> 共扫描 99 个候选项目，有效 58 个，另过滤 13 个疑似推广矩阵／刷量仓库，下列为前 20 名。
 
 | # | 项目 | 一句话介绍 | 创建时间 | 当前 Star | 累计增长 | 最新完整日新增 | 今日(未完) | 日均新增 | 近3日斜率 | 趋势 |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | [xcl-dev/xcl](https://github.com/xcl-dev/xcl) | Xbox Series compatibility layer for Windows - runs console game code natively… | 2026-11-20 | 7,553 | 7,553 | 4,662 | 2,547 | 2517.7 | 2466.5 | 样本不足 |
-| 2 | [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps… | 2026-11-21 | 3,555 | 3,556 | 964 | 236 | 1185.3 | 1478.0 | 样本不足 |
-| 3 | [AFK-surf/xnulinux](https://github.com/AFK-surf/xnulinux) | XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) | 2026-11-20 | 3,201 | 3,201 | 2,158 | 628 | 800.2 | 1286.5 | 样本不足 |
-| 4 | [os6/nospeaker](https://github.com/os6/nospeaker) | make your macbook's trackpad talk using its haptic motor | 2026-11-22 | 1,713 | 1,713 | 893 | 147 | 856.5 | 893.0 | 样本不足 |
-| 5 | [Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool) | ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密… | 2026-11-15 | 4,382 | 4,382 | 1,428 | 520 | 486.9 | 806.0 | 加速 (2.64x) |
-| 6 | [pierridotite/mobile-agent-testers](https://github.com/pierridotite/mobile-agent-testers) | 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code… | 2026-11-16 | 1,764 | 1,764 | 659 | 183 | 220.5 | 762.0 | 新爆发 |
-| 7 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original's… | 2026-11-16 | 9,155 | 9,155 | 685 | 259 | 1144.4 | 661.5 | 减速 (0.44x) |
-| 8 | [4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi) | Does GTA VI run on PC yet? A live tracker of community recompilation and emulation… | 2026-11-21 | 2,457 | 2,457 | 1,188 | 1,187 | 1228.5 | 634.5 | 样本不足 |
-| 9 | [deterministic-machines/deslop-please](https://github.com/deterministic-machines/deslop-please) | Bring (back) sanity to your code | 2026-11-22 | 627 | 627 | 406 | 221 | 313.5 | 406.0 | 样本不足 |
-| 10 | [omonkeyz/xbox-emulator](https://github.com/omonkeyz/xbox-emulator) | Progress notes for running Xbox Series X/S builds on PC (TomBox + rage9) | 2026-11-21 | 1,793 | 1,793 | 333 | 76 | 597.7 | 402.0 | 样本不足 |
-| 11 | [erkamyaman/safe-anything](https://github.com/erkamyaman/safe-anything) | Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS… | 2026-11-22 | 609 | 609 | 372 | 72 | 304.5 | 372.0 | 样本不足 |
-| 12 | [R0Y00/Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | Static recompilation research for Xbox Series X/S software on x64 Windows, with… | 2026-11-20 | 1,879 | 1,879 | 343 | 186 | 469.8 | 333.0 | 样本不足 |
-| 13 | [Ahmet-Dedeler/awesome-gta6-reverse-engineering](https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering) | Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9… | 2026-11-21 | 675 | 675 | 371 | 55 | 225.0 | 298.0 | 样本不足 |
-| 14 | [Avaneesh-Inamdar/Stream-Tube-Desktop](https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop) | Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube… | 2026-11-22 | 764 | 764 | 290 | 426 | 382.0 | 290.0 | 样本不足 |
-| 15 | [INK-Q/agy-fast](https://github.com/INK-Q/agy-fast) | Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM… | 2026-11-19 | 1,132 | 1,127 | 198 | 299 | 225.4 | 286.5 | 样本不足 |
-| 16 | [sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill) | Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding… | 2026-11-16 | 2,501 | 2,501 | 332 | 166 | 312.6 | 276.5 | 加速 (2.51x) |
-| 17 | [iamajmeena/neonclipping](https://github.com/iamajmeena/neonclipping) | Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping… | 2026-11-19 | 2,458 | 2,458 | 168 | 118 | 491.6 | 249.5 | 样本不足 |
-| 18 | [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis) | Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) | 2026-11-20 | 1,012 | 1,012 | 237 | 88 | 253.0 | 228.0 | 样本不足 |
-| 19 | [qianyiai/kurocat](https://github.com/qianyiai/kurocat) | KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative… | 2026-11-21 | 597 | 597 | 236 | 138 | 199.0 | 220.5 | 样本不足 |
-| 20 | [Lemxy/WinRust](https://github.com/Lemxy/WinRust) | Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk… | 2026-11-17 | 1,448 | 1,448 | 126 | 42 | 206.9 | 213.0 | 减速 (0.66x) |
+| 1 | [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | An attempt at running GTA VI on PC | 2026-11-23 | 12,390 | 12,389 | 5,729 | 662 | 12389.0 | 5729.0 | 样本不足 |
+| 2 | [xcl-dev/xcl](https://github.com/xcl-dev/xcl) | Xbox Series compatibility layer for Windows - runs console game code natively… | 2026-11-20 | 8,238 | 8,238 | 3,028 | 252 | 2059.5 | 3821.5 | 样本不足 |
+| 3 | [AFK-surf/xnulinux](https://github.com/AFK-surf/xnulinux) | XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) | 2026-11-20 | 3,851 | 3,851 | 1,026 | 255 | 770.2 | 1591.0 | 样本不足 |
+| 4 | [4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi) | Does GTA VI run on PC yet? A live tracker of community recompilation and emulation… | 2026-11-21 | 3,701 | 3,701 | 1,868 | 569 | 1233.7 | 1525.0 | 样本不足 |
+| 5 | [ubiquitarianism/leonida](https://github.com/ubiquitarianism/leonida) | A continuation of Leonida, the Xbox > PC port interface for GTA VI | 2026-11-23 | 2,258 | 2,258 | 1,341 | 232 | 2258.0 | 1341.0 | 样本不足 |
+| 6 | [Indigo-0167/universal-game-mod-manager](https://github.com/Indigo-0167/universal-game-mod-manager) | Free Windows game mod manager to discover, install, update and manage universal Unity and… | 2026-11-23 | 1,301 | 1,301 | 1,072 | 229 | 1301.0 | 1072.0 | 样本不足 |
+| 7 | [Umbra9179/clipboard-history-manager-windows](https://github.com/Umbra9179/clipboard-history-manager-windows) | Free open-source Windows clipboard manager with searchable history, image previews, tags… | 2026-11-23 | 1,265 | 1,265 | 1,047 | 218 | 1265.0 | 1047.0 | 样本不足 |
+| 8 | [rowanbyte3329/stardew-valley-mod-manager](https://github.com/rowanbyte3329/stardew-valley-mod-manager) | Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates… | 2026-11-23 | 871 | 871 | 871 | 0 | 871.0 | 871.0 | 样本不足 |
+| 9 | [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps… | 2026-11-21 | 3,898 | 3,898 | 414 | 167 | 974.5 | 687.5 | 样本不足 |
+| 10 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | Rewrite your whole app in Rust, one piece at a time, checked against the original's… | 2026-11-16 | 9,530 | 9,529 | 457 | 176 | 1058.8 | 571.0 | 减速 (0.59x) |
+| 11 | [os6/nospeaker](https://github.com/os6/nospeaker) | make your macbook's trackpad talk using its haptic motor | 2026-11-22 | 1,865 | 1,865 | 231 | 68 | 621.7 | 562.0 | 样本不足 |
+| 12 | [umbradev315/ffmpeg-video-audio-converter](https://github.com/umbradev315/ffmpeg-video-audio-converter) | Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media… | 2026-11-23 | 554 | 554 | 553 | 0 | 554.0 | 553.0 | 样本不足 |
+| 13 | [pierridotite/mobile-agent-testers](https://github.com/pierridotite/mobile-agent-testers) | 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code… | 2026-11-16 | 2,228 | 2,228 | 391 | 258 | 278.5 | 524.5 | 新爆发 |
+| 14 | [peak85-sketch/stardew-valley-mod-manager](https://github.com/peak85-sketch/stardew-valley-mod-manager) | Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates… | 2026-11-23 | 514 | 514 | 514 | 0 | 514.0 | 514.0 | 样本不足 |
+| 15 | [Avaneesh-Inamdar/Stream-Tube-Desktop](https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop) | Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube… | 2026-11-22 | 1,162 | 1,162 | 634 | 191 | 581.0 | 461.5 | 样本不足 |
+| 16 | [deterministic-machines/deslop-please](https://github.com/deterministic-machines/deslop-please) | Bring (back) sanity to your code | 2026-11-22 | 1,036 | 1,036 | 454 | 177 | 345.3 | 429.5 | 样本不足 |
+| 17 | [INK-Q/agy-fast](https://github.com/INK-Q/agy-fast) | Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM… | 2026-11-19 | 1,486 | 1,480 | 504 | 150 | 246.7 | 351.0 | 加速 (3.18x) |
+| 18 | [crhywun/g1-acq](https://github.com/crhywun/g1-acq) | — | 2026-11-22 | 1,162 | 1,162 | 486 | 325 | 387.3 | 336.0 | 样本不足 |
+| 19 | [sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill) | Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding… | 2026-11-16 | 2,682 | 2,682 | 283 | 63 | 335.2 | 307.5 | 平稳 (1.20x) |
+| 20 | [R0Y00/Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | Static recompilation research for Xbox Series X/S software on x64 Windows, with… | 2026-11-20 | 1,950 | 1,950 | 243 | 27 | 390.0 | 290.5 | 样本不足 |
 
 ## 统计口径
 
-- **对象**：创建时间在 2026-11-14 至 2026-11-24（滚动 10 天）的公开仓库；排除 fork、归档库；星数门槛 ≥ 50。搜索使用 `created:A..B` 区间语法（分开写 `>A <B` 会被 GitHub 静默忽略）。
+- **对象**：创建时间在 2026-11-15 至 2026-11-25（滚动 10 天）的公开仓库；排除 fork、归档库；星数门槛 ≥ 50。搜索使用 `created:A..B` 区间语法（分开写 `>A <B` 会被 GitHub 静默忽略）。
 - **数据源**：GitHub 官方 Search API 发现候选，`GET /repos/{owner}/{repo}/stargazers/history` 取历史。该端点按日历周返回，每周含 7 个日增量（`days[0]` 为周日，UTC）；旧的 `stargazers` 列表端点已于 2026-07 起限制访问。
 - **累计增长**：`history` 全量日增量之和，即从 0 Star 起累计；等于当前 Star 的近似值（取消星会被回溯剔除，可能与当前总数有小幅偏差）。
 - **每日新增**：`days[]` 展开到具体日期；今日数据尚未结束，单独标注为「今日(未完)」，不参与斜率计算。

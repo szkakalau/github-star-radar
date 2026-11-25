@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "generated_at": "2026-11-25 18:36 UTC",
+    "generated_at_iso": "2026-11-25T18:36:11.040883+00:00",
+    "lookback_days": 10,
+    "min_stars": 50,
+    "window_days": 3,
+    "window_start": "2026-11-15",
+    "window_end": "2026-11-25",
+    "candidates": 99,
+    "valid": 58,
+    "flagged": 13,
+    "flagged_detail": [
+      {
+        "full_name": "zero5122/offline-file-converter-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 1062
+      },
+      {
+        "full_name": "solv4626/steam-achievement-manager-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 1064
+      },
+      {
+        "full_name": "kai415-debug/ffmpeg-video-audio-converter",
+        "flag": "shape_cluster(3)",
+        "stars": 1025
+      },
+      {
+        "full_name": "olive527/steam-library-manager-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 723
+      },
+      {
+        "full_name": "Nebula4207/av1-video-encoder-gui",
+        "flag": "shape_cluster(3)",
+        "stars": 685
+      },
+      {
+        "full_name": "Basil0879/steam-game-idler",
+        "flag": "shape_cluster(3)",
+        "stars": 682
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-free-tier",
+        "flag": "shape_cluster(4)",
+        "stars": 456
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-api-proxy",
+        "flag": "shape_cluster(4)",
+        "stars": 447
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-alternatives",
+        "flag": "shape_cluster(4)",
+        "stars": 444
+      },
+      {
+        "full_name": "fujc683/seedance-2-5-flash-reference-video",
+        "flag": "shape_cluster(4)",
+        "stars": 444
+      },
+      {
+        "full_name": "w01fb0ss/PiBot",
+        "flag": "shape_cluster(3)",
+        "stars": 587
+      },
+      {
+        "full_name": "nkjDSLcvanv/antigravity-codex-theme",
+        "flag": "shape_cluster(3)",
+        "stars": 560
+      },
+      {
+        "full_name": "JimLiu/open-artifact",
+        "flag": "shape_cluster(3)",
+        "stars": 541
+      }
+    ]
+  },
+  "ranking": [
+    {
+      "full_name": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "description": "An attempt at running GTA VI on PC",
+      "created_at": "2026-11-23T21:47:25Z",
+      "age_days": 1,
+      "stars_now": 12390,
+      "cumulative": 12389,
+      "daily_latest": 5729,
+      "daily_today_partial": 662,
+      "daily_avg": 12389.0,
+      "slope_recent": 5729.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "created_at": "2026-11-20T20:03:21Z",
+      "age_days": 4,
+      "stars_now": 8238,
+      "cumulative": 8238,
+      "daily_latest": 3028,
+      "daily_today_partial": 252,
+      "daily_avg": 2059.5,
+      "slope_recent": 3821.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "created_at": "2026-11-20T10:18:31Z",
+      "age_days": 5,
+      "stars_now": 3851,
+      "cumulative": 3851,
+      "daily_latest": 1026,
+      "daily_today_partial": 255,
+      "daily_avg": 770.2,
+      "slope_recent": 1591.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "created_at": "2026-11-21T23:16:41Z",
+      "age_days": 3,
+      "stars_now": 3701,
+      "cumulative": 3701,
+      "daily_latest": 1868,
+      "daily_today_partial": 569,
+      "daily_avg": 1233.6666666666667,
+      "slope_recent": 1525.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "ubiquitarianism/leonida",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "created_at": "2026-11-23T23:54:39Z",
+      "age_days": 1,
+      "stars_now": 2258,
+      "cumulative": 2258,
+      "daily_latest": 1341,
+      "daily_today_partial": 232,
+      "daily_avg": 2258.0,
+      "slope_recent": 1341.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Indigo-0167/universal-game-mod-manager",
+      "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
+      "description": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
+      "created_at": "2026-11-23T21:30:10Z",
+      "age_days": 1,
+      "stars_now": 1301,
+      "cumulative": 1301,
+      "daily_latest": 1072,
+      "daily_today_partial": 229,
+      "daily_avg": 1301.0,
+      "slope_recent": 1072.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Umbra9179/clipboard-history-manager-windows",
+      "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+      "description": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
+      "created_at": "2026-11-23T21:40:15Z",
+      "age_days": 1,
+      "stars_now": 1265,
+      "cumulative": 1265,
+      "daily_latest": 1047,
+      "daily_today_partial": 218,
+      "daily_avg": 1265.0,
+      "slope_recent": 1047.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "rowanbyte3329/stardew-valley-mod-manager",
+      "url": "https://github.com/rowanbyte3329/stardew-valley-mod-manager",
+      "description": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles.",
+      "created_at": "2026-11-23T21:21:35Z",
+      "age_days": 1,
+      "stars_now": 871,
+      "cumulative": 871,
+      "daily_latest": 871,
+      "daily_today_partial": 0,
+      "daily_avg": 871.0,
+      "slope_recent": 871.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "created_at": "2026-11-21T14:40:27Z",
+      "age_days": 4,
+      "stars_now": 3898,
+      "cumulative": 3898,
+      "daily_latest": 414,
+      "daily_today_partial": 167,
+      "daily_avg": 974.5,
+      "slope_recent": 687.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "created_at": "2026-11-16T12:10:36Z",
+      "age_days": 9,
+      "stars_now": 9530,
+      "cumulative": 9529,
+      "daily_latest": 457,
+      "daily_today_partial": 176,
+      "daily_avg": 1058.7777777777778,
+      "slope_recent": 571.0,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.5923236514522822
+    },
+    {
+      "full_name": "os6/nospeaker",
+      "url": "https://github.com/os6/nospeaker",
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "created_at": "2026-11-22T12:05:54Z",
+      "age_days": 3,
+      "stars_now": 1865,
+      "cumulative": 1865,
+      "daily_latest": 231,
+      "daily_today_partial": 68,
+      "daily_avg": 621.6666666666666,
+      "slope_recent": 562.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "umbradev315/ffmpeg-video-audio-converter",
+      "url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
+      "description": "Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media, and analyze quality.",
+      "created_at": "2026-11-23T21:37:25Z",
+      "age_days": 1,
+      "stars_now": 554,
+      "cumulative": 554,
+      "daily_latest": 553,
+      "daily_today_partial": 0,
+      "daily_avg": 554.0,
+      "slope_recent": 553.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "pierridotite/mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "created_at": "2026-11-16T19:11:44Z",
+      "age_days": 8,
+      "stars_now": 2228,
+      "cumulative": 2228,
+      "daily_latest": 391,
+      "daily_today_partial": 258,
+      "daily_avg": 278.5,
+      "slope_recent": 524.5,
+      "slope_window": 3,
+      "trend": "新爆发",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "peak85-sketch/stardew-valley-mod-manager",
+      "url": "https://github.com/peak85-sketch/stardew-valley-mod-manager",
+      "description": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.",
+      "created_at": "2026-11-23T21:28:46Z",
+      "age_days": 1,
+      "stars_now": 514,
+      "cumulative": 514,
+      "daily_latest": 514,
+      "daily_today_partial": 0,
+      "daily_avg": 514.0,
+      "slope_recent": 514.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "created_at": "2026-11-22T18:50:17Z",
+      "age_days": 2,
+      "stars_now": 1162,
+      "cumulative": 1162,
+      "daily_latest": 634,
+      "daily_today_partial": 191,
+      "daily_avg": 581.0,
+      "slope_recent": 461.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "deterministic-machines/deslop-please",
+      "url": "https://github.com/deterministic-machines/deslop-please",
+      "description": "Bring (back) sanity to your code",
+      "created_at": "2026-11-22T05:36:03Z",
+      "age_days": 3,
+      "stars_now": 1036,
+      "cumulative": 1036,
+      "daily_latest": 454,
+      "daily_today_partial": 177,
+      "daily_avg": 345.3333333333333,
+      "slope_recent": 429.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "created_at": "2026-11-19T04:58:46Z",
+      "age_days": 6,
+      "stars_now": 1486,
+      "cumulative": 1480,
+      "daily_latest": 504,
+      "daily_today_partial": 150,
+      "daily_avg": 246.66666666666666,
+      "slope_recent": 351.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 3.176470588235294
+    },
+    {
+      "full_name": "crhywun/g1-acq",
+      "url": "https://github.com/crhywun/g1-acq",
+      "description": "",
+      "created_at": "2026-11-22T10:53:17Z",
+      "age_days": 3,
+      "stars_now": 1162,
+      "cumulative": 1162,
+      "daily_latest": 486,
+      "daily_today_partial": 325,
+      "daily_avg": 387.3333333333333,
+      "slope_recent": 336.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "created_at": "2026-11-16T18:40:04Z",
+      "age_days": 8,
+      "stars_now": 2682,
+      "cumulative": 2682,
+      "daily_latest": 283,
+      "daily_today_partial": 63,
+      "daily_avg": 335.25,
+      "slope_recent": 307.5,
+      "slope_window": 3,
+      "trend": "平稳",
+      "trend_ratio": 1.1964980544747081
+    },
+    {
+      "full_name": "R0Y00/Xbox2Windows",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "description": "Static recompilation research for Xbox Series X/S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+      "created_at": "2026-11-20T17:43:52Z",
+      "age_days": 5,
+      "stars_now": 1950,
+      "cumulative": 1950,
+      "daily_latest": 243,
+      "daily_today_partial": 27,
+      "daily_avg": 390.0,
+      "slope_recent": 290.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    }
+  ],
+  "series": {
+    "Marvisak/VIctory": {
+      "2026-11-23": 5998,
+      "2026-11-24": 5729,
+      "2026-11-25": 662
+    },
+    "xcl-dev/xcl": {
+      "2026-11-22": 270,
+      "2026-11-23": 4615,
+      "2026-11-24": 3028,
+      "2026-11-25": 252,
+      "2026-11-20": 0,
+      "2026-11-21": 73
+    },
+    "AFK-surf/xnulinux": {
+      "2026-11-22": 414,
+      "2026-11-23": 2156,
+      "2026-11-24": 1026,
+      "2026-11-25": 255,
+      "2026-11-20": 0,
+      "2026-11-21": 0
+    },
+    "4lwayz/portwatch-vi": {
+      "2026-11-22": 81,
+      "2026-11-23": 1182,
+      "2026-11-24": 1868,
+      "2026-11-25": 569,
+      "2026-11-21": 1
+    },
+    "ubiquitarianism/leonida": {
+      "2026-11-23": 685,
+      "2026-11-24": 1341,
+      "2026-11-25": 232
+    },
+    "Indigo-0167/universal-game-mod-manager": {
+      "2026-11-23": 0,
+      "2026-11-24": 1072,
+      "2026-11-25": 229
+    },
+    "Umbra9179/clipboard-history-manager-windows": {
+      "2026-11-23": 0,
+      "2026-11-24": 1047,
+      "2026-11-25": 218
+    },
+    "rowanbyte3329/stardew-valley-mod-manager": {
+      "2026-11-23": 0,
+      "2026-11-24": 871,
+      "2026-11-25": 0
+    },
+    "EL4CTEO/fast-anything": {
+      "2026-11-22": 1992,
+      "2026-11-23": 961,
+      "2026-11-24": 414,
+      "2026-11-25": 167,
+      "2026-11-21": 364
+    },
+    "erkamyaman/rust-anything": {
+      "2026-11-22": 637,
+      "2026-11-23": 685,
+      "2026-11-24": 457,
+      "2026-11-25": 176,
+      "2026-11-16": 1,
+      "2026-11-17": 1962,
+      "2026-11-18": 1905,
+      "2026-11-19": 1778,
+      "2026-11-20": 1221,
+      "2026-11-21": 707
+    },
+    "os6/nospeaker": {
+      "2026-11-22": 673,
+      "2026-11-23": 893,
+      "2026-11-24": 231,
+      "2026-11-25": 68
+    },
+    "umbradev315/ffmpeg-video-audio-converter": {
+      "2026-11-23": 1,
+      "2026-11-24": 553,
+      "2026-11-25": 0
+    },
+    "pierridotite/mobile-agent-testers": {
+      "2026-11-22": 864,
+      "2026-11-23": 658,
+      "2026-11-24": 391,
+      "2026-11-25": 258,
+      "2026-11-16": 17,
+      "2026-11-17": 14,
+      "2026-11-18": 11,
+      "2026-11-19": 4,
+      "2026-11-20": 3,
+      "2026-11-21": 8
+    },
+    "peak85-sketch/stardew-valley-mod-manager": {
+      "2026-11-23": 0,
+      "2026-11-24": 514,
+      "2026-11-25": 0
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "2026-11-22": 48,
+      "2026-11-23": 289,
+      "2026-11-24": 634,
+      "2026-11-25": 191
+    },
+    "deterministic-machines/deslop-please": {
+      "2026-11-22": 0,
+      "2026-11-23": 405,
+      "2026-11-24": 454,
+      "2026-11-25": 177
+    },
+    "INK-Q/agy-fast": {
+      "2026-11-22": 373,
+      "2026-11-23": 198,
+      "2026-11-24": 504,
+      "2026-11-25": 150,
+      "2026-11-19": 34,
+      "2026-11-20": 168,
+      "2026-11-21": 53
+    },
+    "crhywun/g1-acq": {
+      "2026-11-22": 165,
+      "2026-11-23": 186,
+      "2026-11-24": 486,
+      "2026-11-25": 325
+    },
+    "sybil-solutions/inference-optimisation-skill": {
+      "2026-11-22": 221,
+      "2026-11-23": 332,
+      "2026-11-24": 283,
+      "2026-11-25": 63,
+      "2026-11-16": 401,
+      "2026-11-17": 576,
+      "2026-11-18": 179,
+      "2026-11-19": 113,
+      "2026-11-20": 107,
+      "2026-11-21": 407
+    },
+    "R0Y00/Xbox2Windows": {
+      "2026-11-22": 322,
+      "2026-11-23": 338,
+      "2026-11-24": 243,
+      "2026-11-25": 27,
+      "2026-11-20": 2,
+      "2026-11-21": 1018
+    }
+  }
+}
