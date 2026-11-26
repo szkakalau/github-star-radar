@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "generated_at": "2026-11-26 18:19 UTC",
+    "generated_at_iso": "2026-11-26T18:19:53.576008+00:00",
+    "lookback_days": 10,
+    "min_stars": 50,
+    "window_days": 3,
+    "window_start": "2026-11-16",
+    "window_end": "2026-11-26",
+    "candidates": 150,
+    "valid": 64,
+    "flagged": 54,
+    "flagged_detail": [
+      {
+        "full_name": "zero5122/offline-file-converter-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 1069
+      },
+      {
+        "full_name": "solv4626/steam-achievement-manager-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 1058
+      },
+      {
+        "full_name": "kai415-debug/ffmpeg-video-audio-converter",
+        "flag": "shape_cluster(3)",
+        "stars": 1020
+      },
+      {
+        "full_name": "olive527/steam-library-manager-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 719
+      },
+      {
+        "full_name": "Basil0879/steam-game-idler",
+        "flag": "shape_cluster(3)",
+        "stars": 681
+      },
+      {
+        "full_name": "Nebula4207/av1-video-encoder-gui",
+        "flag": "shape_cluster(3)",
+        "stars": 681
+      },
+      {
+        "full_name": "ThreatDefence/agentic-attack-detections",
+        "flag": "shape_cluster(3)",
+        "stars": 736
+      },
+      {
+        "full_name": "w01fb0ss/PiBot",
+        "flag": "shape_cluster(3)",
+        "stars": 650
+      },
+      {
+        "full_name": "CocoSgt/riemann-hypothesis-lean",
+        "flag": "shape_cluster(3)",
+        "stars": 583
+      },
+      {
+        "full_name": "Adabi0304/studioonepro7-release",
+        "flag": "shape_cluster(45)",
+        "stars": 340
+      },
+      {
+        "full_name": "ayux777/metatrader-5-bot",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "praseesh369/youtube-ai-video-editing-system",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "abj-a11y/landr-plugin-bundle",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "juniordroid/better-discord-client",
+        "flag": "shape_cluster(45)",
+        "stars": 339
+      },
+      {
+        "full_name": "darthvader097br-ctrl/acronis-standalone-bundle",
+        "flag": "shape_cluster(45)",
+        "stars": 339
+      },
+      {
+        "full_name": "vinujak/phantom-blade-zero-modifier",
+        "flag": "shape_cluster(45)",
+        "stars": 339
+      },
+      {
+        "full_name": "Dhruv2710-hub/cellebrite-ufed",
+        "flag": "shape_cluster(45)",
+        "stars": 339
+      },
+      {
+        "full_name": "dillithdillith4-cell/autodesk-cfd",
+        "flag": "shape_cluster(45)",
+        "stars": 339
+      },
+      {
+        "full_name": "youssefco1999-hash/aiseesoft-launch-pro",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "cr4zyp4ul/quicken-deluxe",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "Urvee003/bloxshade-for-roblox",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "dongarenikhilit047-star/portfolio-rebalancer",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "yrf15gamin-pixel/ashampoo-winoptimizer-pro",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "CertificateVerfication/chimera-utility",
+        "flag": "shape_cluster(45)",
+        "stars": 338
+      },
+      {
+        "full_name": "Redwannn/avid-media-composer",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "pravinak1188-design/ashampoo-uninstaller",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "23080960124/ibm-spss-statistics",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "hariachayan5-dotcom/sp-flash-tool",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "Yummy2288/fonetrans-desktop-utility",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "drillryte/easy-worship",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "Gobjb/directory-opus-launch",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "Daax116/startall-back-utility",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "purvprajapati2504-design/premiere-pro-video-editor",
+        "flag": "shape_cluster(45)",
+        "stars": 337
+      },
+      {
+        "full_name": "rockford007/xyplorer-file-manager",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "official00shivansh-eng/ultra-iso",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "aathreynair22-bit/wifi-password-tester",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "jorgezaltoo-design/microsoft-visio",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "SELAMUMESHESHA/dxo-photolab-10",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "ali7080/adobe-air-sdk",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "gaichayoubb-hub/directory-opus-utility",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "rafiiiakmall-cpu/aida-64-extreme",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "jomicat1989-dotcom/rust-external-trainer-tool",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "VenkateshGorityala/voicemod-audio-modifier",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "orakio1975/acrobat-pro-pdf-editor",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "parthivvinod95-blip/clion-desktop",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "rahul9350125/photo-commander",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "sadiqameen2005-pixel/display-fusion",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "cleidsonmachadoalves45-byte/adobe-audition",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "lebrowndnasty-hash/ai-app-builder",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "maslah44/cinebench-benchmark",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "anasarfat2024-ui/adobe-substance-3d",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "WezTerp/daemon-pro",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "Speedydx/delta-force-trainer",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      },
+      {
+        "full_name": "njoniktu5/microstation-utility",
+        "flag": "shape_cluster(45)",
+        "stars": 336
+      }
+    ]
+  },
+  "ranking": [
+    {
+      "full_name": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "description": "An attempt at running GTA VI on PC",
+      "created_at": "2026-11-23T21:47:25Z",
+      "age_days": 2,
+      "stars_now": 13167,
+      "cumulative": 13167,
+      "daily_latest": 1118,
+      "daily_today_partial": 403,
+      "daily_avg": 6583.5,
+      "slope_recent": 3404.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "created_at": "2026-11-20T20:03:21Z",
+      "age_days": 5,
+      "stars_now": 8548,
+      "cumulative": 8548,
+      "daily_latest": 432,
+      "daily_today_partial": 184,
+      "daily_avg": 1709.6,
+      "slope_recent": 1718.5,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 10.108823529411765
+    },
+    {
+      "full_name": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "created_at": "2026-11-21T23:16:41Z",
+      "age_days": 4,
+      "stars_now": 5360,
+      "cumulative": 5361,
+      "daily_latest": 1452,
+      "daily_today_partial": 791,
+      "daily_avg": 1340.25,
+      "slope_recent": 1657.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "ubiquitarianism/leonida",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "created_at": "2026-11-23T23:54:39Z",
+      "age_days": 2,
+      "stars_now": 2487,
+      "cumulative": 2487,
+      "daily_latest": 369,
+      "daily_today_partial": 105,
+      "daily_avg": 1243.5,
+      "slope_recent": 851.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "fxceless/victory-fork",
+      "url": "https://github.com/fxceless/victory-fork",
+      "description": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+      "created_at": "2026-11-24T18:02:37Z",
+      "age_days": 2,
+      "stars_now": 3249,
+      "cumulative": 3249,
+      "daily_latest": 799,
+      "daily_today_partial": 97,
+      "daily_avg": 1624.5,
+      "slope_recent": 799.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "created_at": "2026-11-20T10:18:31Z",
+      "age_days": 6,
+      "stars_now": 4195,
+      "cumulative": 4195,
+      "daily_latest": 454,
+      "daily_today_partial": 149,
+      "daily_avg": 699.1666666666666,
+      "slope_recent": 740.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 3.57487922705314
+    },
+    {
+      "full_name": "Indigo-0167/universal-game-mod-manager",
+      "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
+      "description": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
+      "created_at": "2026-11-23T21:30:10Z",
+      "age_days": 2,
+      "stars_now": 1301,
+      "cumulative": 1301,
+      "daily_latest": 230,
+      "daily_today_partial": 2,
+      "daily_avg": 650.5,
+      "slope_recent": 649.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Umbra9179/clipboard-history-manager-windows",
+      "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+      "description": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
+      "created_at": "2026-11-23T21:40:15Z",
+      "age_days": 2,
+      "stars_now": 1263,
+      "cumulative": 1263,
+      "daily_latest": 219,
+      "daily_today_partial": 1,
+      "daily_avg": 631.5,
+      "slope_recent": 631.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "RMvdesi/obsidian-prism",
+      "url": "https://github.com/RMvdesi/obsidian-prism",
+      "description": "Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)",
+      "created_at": "2026-11-17T02:50:21Z",
+      "age_days": 9,
+      "stars_now": 2178,
+      "cumulative": 2177,
+      "daily_latest": 978,
+      "daily_today_partial": 727,
+      "daily_avg": 241.88888888888889,
+      "slope_recent": 594.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 8.735294117647058
+    },
+    {
+      "full_name": "crhywun/g1-acq",
+      "url": "https://github.com/crhywun/g1-acq",
+      "description": "",
+      "created_at": "2026-11-22T10:53:17Z",
+      "age_days": 4,
+      "stars_now": 1607,
+      "cumulative": 1607,
+      "daily_latest": 541,
+      "daily_today_partial": 234,
+      "daily_avg": 401.75,
+      "slope_recent": 511.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "created_at": "2026-11-22T18:50:17Z",
+      "age_days": 3,
+      "stars_now": 1432,
+      "cumulative": 1432,
+      "daily_latest": 338,
+      "daily_today_partial": 123,
+      "daily_avg": 477.3333333333333,
+      "slope_recent": 486.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "pierridotite/mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "created_at": "2026-11-16T19:11:44Z",
+      "age_days": 9,
+      "stars_now": 2483,
+      "cumulative": 2483,
+      "daily_latest": 420,
+      "daily_today_partial": 92,
+      "daily_avg": 275.8888888888889,
+      "slope_recent": 405.5,
+      "slope_window": 3,
+      "trend": "平稳",
+      "trend_ratio": 0.9289805269186713
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "created_at": "2026-11-19T04:58:46Z",
+      "age_days": 7,
+      "stars_now": 1692,
+      "cumulative": 1687,
+      "daily_latest": 252,
+      "daily_today_partial": 107,
+      "daily_avg": 241.0,
+      "slope_recent": 378.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 1.7788235294117647
+    },
+    {
+      "full_name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "created_at": "2026-11-21T14:40:27Z",
+      "age_days": 5,
+      "stars_now": 4193,
+      "cumulative": 4193,
+      "daily_latest": 330,
+      "daily_today_partial": 134,
+      "daily_avg": 838.6,
+      "slope_recent": 371.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "WhiteBr1ck/agy-powertools",
+      "url": "https://github.com/WhiteBr1ck/agy-powertools",
+      "description": "Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板",
+      "created_at": "2026-11-16T21:35:31Z",
+      "age_days": 9,
+      "stars_now": 1275,
+      "cumulative": 1275,
+      "daily_latest": 485,
+      "daily_today_partial": 240,
+      "daily_avg": 141.66666666666666,
+      "slope_recent": 364.5,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 5.975409836065574
+    },
+    {
+      "full_name": "qianyiai/KuroCat",
+      "url": "https://github.com/qianyiai/KuroCat",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+      "created_at": "2026-11-21T15:49:31Z",
+      "age_days": 5,
+      "stars_now": 1322,
+      "cumulative": 1322,
+      "daily_latest": 384,
+      "daily_today_partial": 151,
+      "daily_avg": 264.4,
+      "slope_recent": 357.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "deterministic-machines/deslop-please",
+      "url": "https://github.com/deterministic-machines/deslop-please",
+      "description": "Bring (back) sanity to your code",
+      "created_at": "2026-11-22T05:36:03Z",
+      "age_days": 4,
+      "stars_now": 1145,
+      "cumulative": 1145,
+      "daily_latest": 232,
+      "daily_today_partial": 54,
+      "daily_avg": 286.25,
+      "slope_recent": 343.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "umbradev315/ffmpeg-video-audio-converter",
+      "url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
+      "description": "Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media, and analyze quality.",
+      "created_at": "2026-11-23T21:37:25Z",
+      "age_days": 2,
+      "stars_now": 551,
+      "cumulative": 551,
+      "daily_latest": 0,
+      "daily_today_partial": 0,
+      "daily_avg": 275.5,
+      "slope_recent": 275.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "sous-labs/songe",
+      "url": "https://github.com/sous-labs/songe",
+      "description": "A training engine for your local model, using your idle compute",
+      "created_at": "2026-11-20T11:01:20Z",
+      "age_days": 6,
+      "stars_now": 900,
+      "cumulative": 900,
+      "daily_latest": 123,
+      "daily_today_partial": 17,
+      "daily_avg": 150.0,
+      "slope_recent": 268.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 3.098265895953757
+    },
+    {
+      "full_name": "peak85-sketch/stardew-valley-mod-manager",
+      "url": "https://github.com/peak85-sketch/stardew-valley-mod-manager",
+      "description": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.",
+      "created_at": "2026-11-23T21:28:46Z",
+      "age_days": 2,
+      "stars_now": 509,
+      "cumulative": 509,
+      "daily_latest": 0,
+      "daily_today_partial": 0,
+      "daily_avg": 254.5,
+      "slope_recent": 254.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    }
+  ],
+  "series": {
+    "Marvisak/VIctory": {
+      "2026-11-23": 5955,
+      "2026-11-24": 5691,
+      "2026-11-25": 1118,
+      "2026-11-26": 403
+    },
+    "xcl-dev/xcl": {
+      "2026-11-22": 267,
+      "2026-11-23": 4587,
+      "2026-11-24": 3005,
+      "2026-11-25": 432,
+      "2026-11-26": 184,
+      "2026-11-20": 0,
+      "2026-11-21": 73
+    },
+    "4lwayz/portwatch-vi": {
+      "2026-11-22": 80,
+      "2026-11-23": 1174,
+      "2026-11-24": 1863,
+      "2026-11-25": 1452,
+      "2026-11-26": 791,
+      "2026-11-21": 1
+    },
+    "ubiquitarianism/leonida": {
+      "2026-11-23": 680,
+      "2026-11-24": 1333,
+      "2026-11-25": 369,
+      "2026-11-26": 105
+    },
+    "fxceless/victory-fork": {
+      "2026-11-24": 2353,
+      "2026-11-25": 799,
+      "2026-11-26": 97
+    },
+    "AFK-surf/xnulinux": {
+      "2026-11-22": 414,
+      "2026-11-23": 2152,
+      "2026-11-24": 1026,
+      "2026-11-25": 454,
+      "2026-11-26": 149,
+      "2026-11-20": 0,
+      "2026-11-21": 0
+    },
+    "Indigo-0167/universal-game-mod-manager": {
+      "2026-11-23": 0,
+      "2026-11-24": 1069,
+      "2026-11-25": 230,
+      "2026-11-26": 2
+    },
+    "Umbra9179/clipboard-history-manager-windows": {
+      "2026-11-23": 0,
+      "2026-11-24": 1043,
+      "2026-11-25": 219,
+      "2026-11-26": 1
+    },
+    "RMvdesi/obsidian-prism": {
+      "2026-11-22": 73,
+      "2026-11-23": 88,
+      "2026-11-24": 210,
+      "2026-11-25": 978,
+      "2026-11-26": 727,
+      "2026-11-17": 0,
+      "2026-11-18": 0,
+      "2026-11-19": 0,
+      "2026-11-20": 38,
+      "2026-11-21": 63
+    },
+    "crhywun/g1-acq": {
+      "2026-11-22": 164,
+      "2026-11-23": 186,
+      "2026-11-24": 482,
+      "2026-11-25": 541,
+      "2026-11-26": 234
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "2026-11-22": 48,
+      "2026-11-23": 289,
+      "2026-11-24": 634,
+      "2026-11-25": 338,
+      "2026-11-26": 123
+    },
+    "pierridotite/mobile-agent-testers": {
+      "2026-11-22": 865,
+      "2026-11-23": 658,
+      "2026-11-24": 391,
+      "2026-11-25": 420,
+      "2026-11-26": 92,
+      "2026-11-16": 17,
+      "2026-11-17": 14,
+      "2026-11-18": 11,
+      "2026-11-19": 4,
+      "2026-11-20": 3,
+      "2026-11-21": 8
+    },
+    "INK-Q/agy-fast": {
+      "2026-11-22": 373,
+      "2026-11-23": 197,
+      "2026-11-24": 504,
+      "2026-11-25": 252,
+      "2026-11-26": 107,
+      "2026-11-19": 34,
+      "2026-11-20": 168,
+      "2026-11-21": 52
+    },
+    "EL4CTEO/fast-anything": {
+      "2026-11-22": 1992,
+      "2026-11-23": 961,
+      "2026-11-24": 412,
+      "2026-11-25": 330,
+      "2026-11-26": 134,
+      "2026-11-21": 364
+    },
+    "WhiteBr1ck/agy-powertools": {
+      "2026-11-22": 61,
+      "2026-11-23": 99,
+      "2026-11-24": 244,
+      "2026-11-25": 485,
+      "2026-11-26": 240,
+      "2026-11-16": 0,
+      "2026-11-17": 0,
+      "2026-11-18": 0,
+      "2026-11-19": 29,
+      "2026-11-20": 56,
+      "2026-11-21": 61
+    },
+    "qianyiai/KuroCat": {
+      "2026-11-22": 205,
+      "2026-11-23": 234,
+      "2026-11-24": 330,
+      "2026-11-25": 384,
+      "2026-11-26": 151,
+      "2026-11-21": 18
+    },
+    "deterministic-machines/deslop-please": {
+      "2026-11-22": 0,
+      "2026-11-23": 405,
+      "2026-11-24": 454,
+      "2026-11-25": 232,
+      "2026-11-26": 54
+    },
+    "umbradev315/ffmpeg-video-audio-converter": {
+      "2026-11-23": 1,
+      "2026-11-24": 550,
+      "2026-11-25": 0,
+      "2026-11-26": 0
+    },
+    "sous-labs/songe": {
+      "2026-11-22": 34,
+      "2026-11-23": 121,
+      "2026-11-24": 413,
+      "2026-11-25": 123,
+      "2026-11-26": 17,
+      "2026-11-20": 53,
+      "2026-11-21": 139
+    },
+    "peak85-sketch/stardew-valley-mod-manager": {
+      "2026-11-23": 0,
+      "2026-11-24": 509,
+      "2026-11-25": 0,
+      "2026-11-26": 0
+    }
+  }
+}
