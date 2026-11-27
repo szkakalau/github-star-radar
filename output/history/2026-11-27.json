@@ -1,0 +1,593 @@
+{
+  "meta": {
+    "generated_at": "2026-11-27 18:03 UTC",
+    "generated_at_iso": "2026-11-27T18:03:28.610446+00:00",
+    "lookback_days": 10,
+    "min_stars": 50,
+    "window_days": 3,
+    "window_start": "2026-11-17",
+    "window_end": "2026-11-27",
+    "candidates": 150,
+    "valid": 116,
+    "flagged": 21,
+    "flagged_detail": [
+      {
+        "full_name": "fahniazz/claude-shorts-skills",
+        "flag": "shape_cluster(4)",
+        "stars": 373
+      },
+      {
+        "full_name": "vuyp/gta6-pc-race",
+        "flag": "shape_cluster(4)",
+        "stars": 378
+      },
+      {
+        "full_name": "ldjx7/multi-agent-account-manager",
+        "flag": "shape_cluster(4)",
+        "stars": 359
+      },
+      {
+        "full_name": "chuspeeism/xiaozao-os",
+        "flag": "shape_cluster(4)",
+        "stars": 361
+      },
+      {
+        "full_name": "erkamyaman/safe-anything",
+        "flag": "shape_cluster(3)",
+        "stars": 820
+      },
+      {
+        "full_name": "Ahmet-Dedeler/awesome-gta6-reverse-engineering",
+        "flag": "shape_cluster(3)",
+        "stars": 824
+      },
+      {
+        "full_name": "ItsNotRexed/Hookshot",
+        "flag": "shape_cluster(3)",
+        "stars": 770
+      },
+      {
+        "full_name": "olive527/steam-library-manager-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 775
+      },
+      {
+        "full_name": "Urvee003/bloxshade-for-roblox",
+        "flag": "shape_cluster(3)",
+        "stars": 339
+      },
+      {
+        "full_name": "jomicat1989-dotcom/rust-external-trainer-tool",
+        "flag": "shape_cluster(3)",
+        "stars": 337
+      },
+      {
+        "full_name": "krishna-dev981/dlss-5-injector",
+        "flag": "shape_cluster(3)",
+        "stars": 336
+      },
+      {
+        "full_name": "Basil0879/steam-game-idler",
+        "flag": "shape_cluster(3)",
+        "stars": 739
+      },
+      {
+        "full_name": "Nebula4207/av1-video-encoder-gui",
+        "flag": "shape_cluster(3)",
+        "stars": 722
+      },
+      {
+        "full_name": "youssefco1999-hash/aiseesoft-launch-pro",
+        "flag": "shape_cluster(8)",
+        "stars": 338
+      },
+      {
+        "full_name": "cr4zyp4ul/quicken-deluxe",
+        "flag": "shape_cluster(8)",
+        "stars": 338
+      },
+      {
+        "full_name": "dongarenikhilit047-star/portfolio-rebalancer",
+        "flag": "shape_cluster(8)",
+        "stars": 338
+      },
+      {
+        "full_name": "23080960124/ibm-spss-statistics",
+        "flag": "shape_cluster(8)",
+        "stars": 337
+      },
+      {
+        "full_name": "purvprajapati2504-design/premiere-pro-video-editor",
+        "flag": "shape_cluster(8)",
+        "stars": 337
+      },
+      {
+        "full_name": "jorgezaltoo-design/microsoft-visio",
+        "flag": "shape_cluster(8)",
+        "stars": 336
+      },
+      {
+        "full_name": "VenkateshGorityala/voicemod-audio-modifier",
+        "flag": "shape_cluster(8)",
+        "stars": 336
+      },
+      {
+        "full_name": "orakio1975/acrobat-pro-pdf-editor",
+        "flag": "shape_cluster(8)",
+        "stars": 336
+      }
+    ]
+  },
+  "ranking": [
+    {
+      "full_name": "nexu-io/opengame",
+      "url": "https://github.com/nexu-io/opengame",
+      "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+      "created_at": "2026-11-25T10:35:45Z",
+      "age_days": 2,
+      "stars_now": 2057,
+      "cumulative": 2057,
+      "daily_latest": 1509,
+      "daily_today_partial": 543,
+      "daily_avg": 1028.5,
+      "slope_recent": 1509.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "created_at": "2026-11-21T23:16:41Z",
+      "age_days": 5,
+      "stars_now": 6500,
+      "cumulative": 6500,
+      "daily_latest": 1543,
+      "daily_today_partial": 401,
+      "daily_avg": 1300.0,
+      "slope_recent": 1496.0,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 2.3916866506794565
+    },
+    {
+      "full_name": "alesha-pro/llm.asm",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+      "created_at": "2026-11-25T07:28:51Z",
+      "age_days": 2,
+      "stars_now": 1993,
+      "cumulative": 1993,
+      "daily_latest": 1041,
+      "daily_today_partial": 251,
+      "daily_avg": 996.5,
+      "slope_recent": 1041.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "description": "An attempt at running GTA VI on PC",
+      "created_at": "2026-11-23T21:47:25Z",
+      "age_days": 3,
+      "stars_now": 13713,
+      "cumulative": 13713,
+      "daily_latest": 785,
+      "daily_today_partial": 222,
+      "daily_avg": 4571.0,
+      "slope_recent": 948.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Reukix/Reloc",
+      "url": "https://github.com/Reukix/Reloc",
+      "description": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
+      "created_at": "2026-11-25T17:29:48Z",
+      "age_days": 2,
+      "stars_now": 1451,
+      "cumulative": 1451,
+      "daily_latest": 932,
+      "daily_today_partial": 369,
+      "daily_avg": 725.5,
+      "slope_recent": 932.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "fxceless/victory-fork",
+      "url": "https://github.com/fxceless/victory-fork",
+      "description": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+      "created_at": "2026-11-24T18:02:37Z",
+      "age_days": 3,
+      "stars_now": 3340,
+      "cumulative": 3340,
+      "daily_latest": 161,
+      "daily_today_partial": 50,
+      "daily_avg": 1113.3333333333333,
+      "slope_recent": 476.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "crhywun/g1-acq",
+      "url": "https://github.com/crhywun/g1-acq",
+      "description": "",
+      "created_at": "2026-11-22T10:53:17Z",
+      "age_days": 5,
+      "stars_now": 1771,
+      "cumulative": 1771,
+      "daily_latest": 335,
+      "daily_today_partial": 69,
+      "daily_avg": 354.2,
+      "slope_recent": 437.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "qianyiai/KuroCat",
+      "url": "https://github.com/qianyiai/KuroCat",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+      "created_at": "2026-11-21T15:49:31Z",
+      "age_days": 6,
+      "stars_now": 1748,
+      "cumulative": 1748,
+      "daily_latest": 421,
+      "daily_today_partial": 156,
+      "daily_avg": 291.3333333333333,
+      "slope_recent": 402.5,
+      "slope_window": 3,
+      "trend": "加速",
+      "trend_ratio": 1.8337129840546698
+    },
+    {
+      "full_name": "zortos293/XSEmu",
+      "url": "https://github.com/zortos293/XSEmu",
+      "description": "Experimental Xbox Series X/S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL.",
+      "created_at": "2026-11-23T12:57:17Z",
+      "age_days": 4,
+      "stars_now": 876,
+      "cumulative": 876,
+      "daily_latest": 762,
+      "daily_today_partial": 114,
+      "daily_avg": 219.0,
+      "slope_recent": 381.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "lsernau/grh-lean",
+      "url": "https://github.com/lsernau/grh-lean",
+      "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
+      "created_at": "2026-11-25T20:42:55Z",
+      "age_days": 1,
+      "stars_now": 1017,
+      "cumulative": 1017,
+      "daily_latest": 371,
+      "daily_today_partial": 71,
+      "daily_avg": 1017.0,
+      "slope_recent": 371.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "created_at": "2026-11-20T20:03:21Z",
+      "age_days": 6,
+      "stars_now": 8703,
+      "cumulative": 8703,
+      "daily_latest": 302,
+      "daily_today_partial": 71,
+      "daily_avg": 1450.5,
+      "slope_recent": 367.0,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.15171558495245968
+    },
+    {
+      "full_name": "AFK-surf/xnulinux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "created_at": "2026-11-20T10:18:31Z",
+      "age_days": 7,
+      "stars_now": 4342,
+      "cumulative": 4342,
+      "daily_latest": 248,
+      "daily_today_partial": 54,
+      "daily_avg": 620.2857142857143,
+      "slope_recent": 351.0,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.27400468384074944
+    },
+    {
+      "full_name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "created_at": "2026-11-21T14:40:27Z",
+      "age_days": 6,
+      "stars_now": 4424,
+      "cumulative": 4424,
+      "daily_latest": 271,
+      "daily_today_partial": 96,
+      "daily_avg": 737.3333333333334,
+      "slope_recent": 300.5,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.20365977634700103
+    },
+    {
+      "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "created_at": "2026-11-22T18:50:17Z",
+      "age_days": 4,
+      "stars_now": 1629,
+      "cumulative": 1629,
+      "daily_latest": 255,
+      "daily_today_partial": 69,
+      "daily_avg": 407.25,
+      "slope_recent": 296.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "ubiquitarianism/leonida",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "created_at": "2026-11-23T23:54:39Z",
+      "age_days": 3,
+      "stars_now": 2612,
+      "cumulative": 2612,
+      "daily_latest": 185,
+      "daily_today_partial": 52,
+      "daily_avg": 870.6666666666666,
+      "slope_recent": 277.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "ZigZagBoi1/ScarlettPort",
+      "url": "https://github.com/ZigZagBoi1/ScarlettPort",
+      "description": "Native PC port layer for an Xbox Series X/S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
+      "created_at": "2026-11-24T09:36:26Z",
+      "age_days": 3,
+      "stars_now": 1139,
+      "cumulative": 1139,
+      "daily_latest": 410,
+      "daily_today_partial": 369,
+      "daily_avg": 379.6666666666667,
+      "slope_recent": 244.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "created_at": "2026-11-19T04:58:46Z",
+      "age_days": 8,
+      "stars_now": 1944,
+      "cumulative": 1939,
+      "daily_latest": 221,
+      "daily_today_partial": 144,
+      "daily_avg": 242.375,
+      "slope_recent": 236.0,
+      "slope_window": 3,
+      "trend": "平稳",
+      "trend_ratio": 0.8324514991181657
+    },
+    {
+      "full_name": "linjiejim/ohmwork",
+      "url": "https://github.com/linjiejim/ohmwork",
+      "description": "交互式电子电路学堂：用可以动手拨弄的仿真学电路",
+      "created_at": "2026-11-24T05:08:10Z",
+      "age_days": 3,
+      "stars_now": 512,
+      "cumulative": 512,
+      "daily_latest": 390,
+      "daily_today_partial": 114,
+      "daily_avg": 170.66666666666666,
+      "slope_recent": 196.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "leanprover-community/riemann-hypothesis",
+      "url": "https://github.com/leanprover-community/riemann-hypothesis",
+      "description": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned up by members of the Lean community.",
+      "created_at": "2026-11-20T14:47:49Z",
+      "age_days": 7,
+      "stars_now": 1515,
+      "cumulative": 1515,
+      "daily_latest": 174,
+      "daily_today_partial": 22,
+      "daily_avg": 216.42857142857142,
+      "slope_recent": 192.5,
+      "slope_window": 3,
+      "trend": "平稳",
+      "trend_ratio": 0.8442982456140351
+    },
+    {
+      "full_name": "Moh4696/inkworks-skill",
+      "url": "https://github.com/Moh4696/inkworks-skill",
+      "description": "Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.",
+      "created_at": "2026-11-25T09:26:33Z",
+      "age_days": 2,
+      "stars_now": 528,
+      "cumulative": 528,
+      "daily_latest": 189,
+      "daily_today_partial": 46,
+      "daily_avg": 264.0,
+      "slope_recent": 189.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    }
+  ],
+  "series": {
+    "nexu-io/opengame": {
+      "2026-11-25": 5,
+      "2026-11-26": 1509,
+      "2026-11-27": 543
+    },
+    "4lwayz/portwatch-vi": {
+      "2026-11-22": 80,
+      "2026-11-23": 1171,
+      "2026-11-24": 1855,
+      "2026-11-25": 1449,
+      "2026-11-26": 1543,
+      "2026-11-27": 401,
+      "2026-11-21": 1
+    },
+    "alesha-pro/llm.asm": {
+      "2026-11-25": 701,
+      "2026-11-26": 1041,
+      "2026-11-27": 251
+    },
+    "Marvisak/VIctory": {
+      "2026-11-23": 5929,
+      "2026-11-24": 5665,
+      "2026-11-25": 1112,
+      "2026-11-26": 785,
+      "2026-11-27": 222
+    },
+    "Reukix/Reloc": {
+      "2026-11-25": 150,
+      "2026-11-26": 932,
+      "2026-11-27": 369
+    },
+    "fxceless/victory-fork": {
+      "2026-11-24": 2337,
+      "2026-11-25": 792,
+      "2026-11-26": 161,
+      "2026-11-27": 50
+    },
+    "crhywun/g1-acq": {
+      "2026-11-22": 163,
+      "2026-11-23": 186,
+      "2026-11-24": 479,
+      "2026-11-25": 539,
+      "2026-11-26": 335,
+      "2026-11-27": 69
+    },
+    "qianyiai/KuroCat": {
+      "2026-11-22": 205,
+      "2026-11-23": 234,
+      "2026-11-24": 330,
+      "2026-11-25": 384,
+      "2026-11-26": 421,
+      "2026-11-27": 156,
+      "2026-11-21": 18
+    },
+    "zortos293/XSEmu": {
+      "2026-11-23": 0,
+      "2026-11-24": 0,
+      "2026-11-25": 0,
+      "2026-11-26": 762,
+      "2026-11-27": 114
+    },
+    "lsernau/grh-lean": {
+      "2026-11-25": 575,
+      "2026-11-26": 371,
+      "2026-11-27": 71
+    },
+    "xcl-dev/xcl": {
+      "2026-11-22": 267,
+      "2026-11-23": 4571,
+      "2026-11-24": 2987,
+      "2026-11-25": 432,
+      "2026-11-26": 302,
+      "2026-11-27": 71,
+      "2026-11-20": 0,
+      "2026-11-21": 73
+    },
+    "AFK-surf/xnulinux": {
+      "2026-11-22": 412,
+      "2026-11-23": 2150,
+      "2026-11-24": 1024,
+      "2026-11-25": 454,
+      "2026-11-26": 248,
+      "2026-11-27": 54,
+      "2026-11-20": 0,
+      "2026-11-21": 0
+    },
+    "EL4CTEO/fast-anything": {
+      "2026-11-22": 1990,
+      "2026-11-23": 961,
+      "2026-11-24": 412,
+      "2026-11-25": 330,
+      "2026-11-26": 271,
+      "2026-11-27": 96,
+      "2026-11-21": 364
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "2026-11-22": 48,
+      "2026-11-23": 288,
+      "2026-11-24": 632,
+      "2026-11-25": 337,
+      "2026-11-26": 255,
+      "2026-11-27": 69
+    },
+    "ubiquitarianism/leonida": {
+      "2026-11-23": 678,
+      "2026-11-24": 1328,
+      "2026-11-25": 369,
+      "2026-11-26": 185,
+      "2026-11-27": 52
+    },
+    "ZigZagBoi1/ScarlettPort": {
+      "2026-11-24": 281,
+      "2026-11-25": 79,
+      "2026-11-26": 410,
+      "2026-11-27": 369
+    },
+    "INK-Q/agy-fast": {
+      "2026-11-22": 372,
+      "2026-11-23": 195,
+      "2026-11-24": 503,
+      "2026-11-25": 251,
+      "2026-11-26": 221,
+      "2026-11-27": 144,
+      "2026-11-19": 34,
+      "2026-11-20": 167,
+      "2026-11-21": 52
+    },
+    "linjiejim/ohmwork": {
+      "2026-11-24": 5,
+      "2026-11-25": 3,
+      "2026-11-26": 390,
+      "2026-11-27": 114
+    },
+    "leanprover-community/riemann-hypothesis": {
+      "2026-11-22": 219,
+      "2026-11-23": 237,
+      "2026-11-24": 186,
+      "2026-11-25": 211,
+      "2026-11-26": 174,
+      "2026-11-27": 22,
+      "2026-11-20": 237,
+      "2026-11-21": 229
+    },
+    "Moh4696/inkworks-skill": {
+      "2026-11-25": 293,
+      "2026-11-26": 189,
+      "2026-11-27": 46
+    }
+  }
+}
