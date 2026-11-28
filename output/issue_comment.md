@@ -1,18 +1,18 @@
-## 涨星榜 2026-11-27
+## 涨星榜 2026-11-28
 
-扫描 150 个新仓 → 116 个有效 → 过滤 21 个刷量；Top 10：
+扫描 150 个新仓 → 104 个有效 → 过滤 13 个刷量；Top 10：
 
 | # | 项目 | 一句话介绍 | 当前 Star | 近3日斜率 | 趋势 |
 |---:|---|---|---:|---:|---|
-| 1 | [nexu-io/opengame](https://github.com/nexu-io/opengame) | The Super Game Agent — the Unity & Unreal for… | 2,057 | 1509/天 | 样本不足 |
-| 2 | [4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi) | Does GTA VI run on PC yet? A live tracker of… | 6,500 | 1496/天 | 加速 2.39x |
-| 3 | [alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm) | Qwen3-0.6B inference (12 KB), bare-metal… | 1,993 | 1041/天 | 样本不足 |
-| 4 | [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | An attempt at running GTA VI on PC | 13,713 | 948/天 | 样本不足 |
-| 5 | [Reukix/Reloc](https://github.com/Reukix/Reloc) | iOS accessory-level location simulator over… | 1,451 | 932/天 | 样本不足 |
-| 6 | [fxceless/victory-fork](https://github.com/fxceless/victory-fork) | Work-in-progress fork of VIctory: getting an… | 3,340 | 476/天 | 样本不足 |
-| 7 | [crhywun/g1-acq](https://github.com/crhywun/g1-acq) | — | 1,771 | 437/天 | 样本不足 |
-| 8 | [qianyiai/KuroCat](https://github.com/qianyiai/KuroCat) | KuroCat — Free open-source 3D/2D desktop typing… | 1,748 | 402/天 | 加速 1.83x |
-| 9 | [zortos293/XSEmu](https://github.com/zortos293/XSEmu) | Experimental Xbox Series X/S (GDK) title runner… | 876 | 381/天 | 样本不足 |
-| 10 | [lsernau/grh-lean](https://github.com/lsernau/grh-lean) | A short Lean 4 proof of the Generalized Riemann… | 1,017 | 371/天 | 样本不足 |
+| 1 | [trustno1-coder/VIctory-NVIDIA](https://github.com/trustno1-coder/VIctory-NVIDIA) | VIctory (Xbox Series compatibility layer) tuned… | 5,986 | 2184/天 | 样本不足 |
+| 2 | [nexu-io/opengame](https://github.com/nexu-io/opengame) | The Super Game Agent — the Unity & Unreal for… | 2,822 | 1247/天 | 样本不足 |
+| 3 | [4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi) | Does GTA VI run on PC yet? A live tracker of… | 7,147 | 1175/天 | 减速 0.78x |
+| 4 | [Reukix/Reloc](https://github.com/Reukix/Reloc) | iOS accessory-level location simulator over… | 2,431 | 884/天 | 样本不足 |
+| 5 | [alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm) | Qwen3-0.6B inference (12 KB), bare-metal… | 2,668 | 840/天 | 样本不足 |
+| 6 | [Pixel679-cmyk/windows-titlebar-blur-customizer](https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer) | Customize Windows 10 and 11 title bar effects… | 1,509 | 818/天 | 样本不足 |
+| 7 | [Marvisak/VIctory](https://github.com/Marvisak/VIctory) | An attempt at running GTA VI on PC | 14,063 | 612/天 | 样本不足 |
+| 8 | [DeadInternetStudios/100x-engineer-skill](https://github.com/DeadInternetStudios/100x-engineer-skill) | 100x is a skill by a former Cursor engineer… | 1,573 | 549/天 | 样本不足 |
+| 9 | [ZigZagBoi1/ScarlettPort](https://github.com/ZigZagBoi1/ScarlettPort) | Native PC port layer for an Xbox Series X/S… | 1,512 | 517/天 | 样本不足 |
+| 10 | [zortos293/XSEmu](https://github.com/zortos293/XSEmu) | Experimental Xbox Series X/S (GDK) title runner… | 980 | 469/天 | 样本不足 |
 
 完整榜单（含统计口径）：https://github.com/szkakalau/github-star-radar/blob/main/output/README.md

@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "generated_at": "2026-11-28 16:46 UTC",
+    "generated_at_iso": "2026-11-28T16:46:44.498183+00:00",
+    "lookback_days": 10,
+    "min_stars": 50,
+    "window_days": 3,
+    "window_start": "2026-11-18",
+    "window_end": "2026-11-28",
+    "candidates": 150,
+    "valid": 104,
+    "flagged": 13,
+    "flagged_detail": [
+      {
+        "full_name": "Basil0879/steam-game-idler",
+        "flag": "shape_cluster(3)",
+        "stars": 1224
+      },
+      {
+        "full_name": "Nebula4207/av1-video-encoder-gui",
+        "flag": "shape_cluster(3)",
+        "stars": 1108
+      },
+      {
+        "full_name": "olive527/steam-library-manager-windows",
+        "flag": "shape_cluster(3)",
+        "stars": 1023
+      },
+      {
+        "full_name": "sresarehumantoo/ARTEX-CC",
+        "flag": "shape_cluster(3)",
+        "stars": 332
+      },
+      {
+        "full_name": "tarqmamdouh/agent-theater",
+        "flag": "shape_cluster(3)",
+        "stars": 310
+      },
+      {
+        "full_name": "EL4CTEO/shrink-anything",
+        "flag": "shape_cluster(3)",
+        "stars": 422
+      },
+      {
+        "full_name": "sohzm/winedroid",
+        "flag": "shape_cluster(3)",
+        "stars": 435
+      },
+      {
+        "full_name": "R44VC0RP/dashsplat",
+        "flag": "shape_cluster(4)",
+        "stars": 370
+      },
+      {
+        "full_name": "bikini/minecraft2shell",
+        "flag": "shape_cluster(4)",
+        "stars": 484
+      },
+      {
+        "full_name": "brcly/TuxBox",
+        "flag": "shape_cluster(4)",
+        "stars": 405
+      },
+      {
+        "full_name": "cyb3rl00m/prune-debloater",
+        "flag": "shape_cluster(3)",
+        "stars": 438
+      },
+      {
+        "full_name": "MoritzPindorek/Five-Laws-of-AI-Agents",
+        "flag": "shape_cluster(3)",
+        "stars": 305
+      },
+      {
+        "full_name": "tristanbuckmaster/navier-stokes",
+        "flag": "shape_cluster(4)",
+        "stars": 456
+      }
+    ]
+  },
+  "ranking": [
+    {
+      "full_name": "trustno1-coder/VIctory-NVIDIA",
+      "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+      "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
+      "created_at": "2026-11-25T23:35:29Z",
+      "age_days": 2,
+      "stars_now": 5986,
+      "cumulative": 5986,
+      "daily_latest": 4212,
+      "daily_today_partial": 1568,
+      "daily_avg": 2993.0,
+      "slope_recent": 2184.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "nexu-io/opengame",
+      "url": "https://github.com/nexu-io/opengame",
+      "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+      "created_at": "2026-11-25T10:35:45Z",
+      "age_days": 3,
+      "stars_now": 2822,
+      "cumulative": 2822,
+      "daily_latest": 988,
+      "daily_today_partial": 323,
+      "daily_avg": 940.6666666666666,
+      "slope_recent": 1247.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "created_at": "2026-11-21T23:16:41Z",
+      "age_days": 6,
+      "stars_now": 7147,
+      "cumulative": 7147,
+      "daily_latest": 809,
+      "daily_today_partial": 249,
+      "daily_avg": 1191.1666666666667,
+      "slope_recent": 1175.0,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.7778881165177094
+    },
+    {
+      "full_name": "Reukix/Reloc",
+      "url": "https://github.com/Reukix/Reloc",
+      "description": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
+      "created_at": "2026-11-25T17:29:48Z",
+      "age_days": 2,
+      "stars_now": 2431,
+      "cumulative": 2431,
+      "daily_latest": 839,
+      "daily_today_partial": 512,
+      "daily_avg": 1215.5,
+      "slope_recent": 884.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "alesha-pro/llm.asm",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+      "created_at": "2026-11-25T07:28:51Z",
+      "age_days": 3,
+      "stars_now": 2668,
+      "cumulative": 2667,
+      "daily_latest": 643,
+      "daily_today_partial": 286,
+      "daily_avg": 889.0,
+      "slope_recent": 840.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Pixel679-cmyk/windows-titlebar-blur-customizer",
+      "url": "https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer",
+      "description": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
+      "created_at": "2026-11-26T21:26:56Z",
+      "age_days": 1,
+      "stars_now": 1509,
+      "cumulative": 1509,
+      "daily_latest": 818,
+      "daily_today_partial": 3,
+      "daily_avg": 1509.0,
+      "slope_recent": 818.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "description": "An attempt at running GTA VI on PC",
+      "created_at": "2026-11-23T21:47:25Z",
+      "age_days": 4,
+      "stars_now": 14063,
+      "cumulative": 14063,
+      "daily_latest": 445,
+      "daily_today_partial": 188,
+      "daily_avg": 3515.75,
+      "slope_recent": 612.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "DeadInternetStudios/100x-engineer-skill",
+      "url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
+      "description": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code",
+      "created_at": "2026-11-23T11:06:07Z",
+      "age_days": 5,
+      "stars_now": 1573,
+      "cumulative": 1573,
+      "daily_latest": 1056,
+      "daily_today_partial": 406,
+      "daily_avg": 314.6,
+      "slope_recent": 549.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "ZigZagBoi1/ScarlettPort",
+      "url": "https://github.com/ZigZagBoi1/ScarlettPort",
+      "description": "Native PC port layer for an Xbox Series X/S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
+      "created_at": "2026-11-24T09:36:26Z",
+      "age_days": 4,
+      "stars_now": 1512,
+      "cumulative": 1512,
+      "daily_latest": 628,
+      "daily_today_partial": 119,
+      "daily_avg": 378.0,
+      "slope_recent": 517.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "zortos293/XSEmu",
+      "url": "https://github.com/zortos293/XSEmu",
+      "description": "Experimental Xbox Series X/S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL.",
+      "created_at": "2026-11-23T12:57:17Z",
+      "age_days": 5,
+      "stars_now": 980,
+      "cumulative": 980,
+      "daily_latest": 178,
+      "daily_today_partial": 42,
+      "daily_avg": 196.0,
+      "slope_recent": 469.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "gary23w/f-ck_data_brokers",
+      "url": "https://github.com/gary23w/f-ck_data_brokers",
+      "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+      "created_at": "2026-11-26T17:53:07Z",
+      "age_days": 1,
+      "stars_now": 1172,
+      "cumulative": 1172,
+      "daily_latest": 454,
+      "daily_today_partial": 250,
+      "daily_avg": 1172.0,
+      "slope_recent": 454.0,
+      "slope_window": 2,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "peak85-sketch/stardew-valley-mod-manager",
+      "url": "https://github.com/peak85-sketch/stardew-valley-mod-manager",
+      "description": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.",
+      "created_at": "2026-11-23T21:28:46Z",
+      "age_days": 4,
+      "stars_now": 1413,
+      "cumulative": 1413,
+      "daily_latest": 659,
+      "daily_today_partial": 245,
+      "daily_avg": 353.25,
+      "slope_recent": 329.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "umbradev315/ffmpeg-video-audio-converter",
+      "url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
+      "description": "Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media, and analyze quality.",
+      "created_at": "2026-11-23T21:37:25Z",
+      "age_days": 4,
+      "stars_now": 1328,
+      "cumulative": 1328,
+      "daily_latest": 658,
+      "daily_today_partial": 120,
+      "daily_avg": 332.0,
+      "slope_recent": 329.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "ProjectLeonida/mandy",
+      "url": "https://github.com/ProjectLeonida/mandy",
+      "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "created_at": "2026-11-23T23:54:39Z",
+      "age_days": 4,
+      "stars_now": 3179,
+      "cumulative": 3179,
+      "daily_latest": 475,
+      "daily_today_partial": 171,
+      "daily_avg": 794.75,
+      "slope_recent": 328.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "qianyiai/KuroCat",
+      "url": "https://github.com/qianyiai/KuroCat",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI companion (Bongo Cat alternative · MCP · Win/Mac/Linux/Android) 开源3D桌面打字小黑猫",
+      "created_at": "2026-11-21T15:49:31Z",
+      "age_days": 7,
+      "stars_now": 1920,
+      "cumulative": 1920,
+      "daily_latest": 233,
+      "daily_today_partial": 96,
+      "daily_avg": 274.2857142857143,
+      "slope_recent": 326.5,
+      "slope_window": 3,
+      "trend": "平稳",
+      "trend_ratio": 1.1578014184397163
+    },
+    {
+      "full_name": "linjiejim/ohmwork",
+      "url": "https://github.com/linjiejim/ohmwork",
+      "description": "交互式电子电路学堂：用可以动手拨弄的仿真学电路",
+      "created_at": "2026-11-24T05:08:10Z",
+      "age_days": 4,
+      "stars_now": 609,
+      "cumulative": 609,
+      "daily_latest": 178,
+      "daily_today_partial": 33,
+      "daily_avg": 152.25,
+      "slope_recent": 284.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "created_at": "2026-11-19T04:58:46Z",
+      "age_days": 9,
+      "stars_now": 2362,
+      "cumulative": 2357,
+      "daily_latest": 320,
+      "daily_today_partial": 248,
+      "daily_avg": 261.8888888888889,
+      "slope_recent": 269.5,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.7722063037249284
+    },
+    {
+      "full_name": "lsernau/grh-lean",
+      "url": "https://github.com/lsernau/grh-lean",
+      "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
+      "created_at": "2026-11-25T20:42:55Z",
+      "age_days": 2,
+      "stars_now": 1116,
+      "cumulative": 1116,
+      "daily_latest": 130,
+      "daily_today_partial": 40,
+      "daily_avg": 558.0,
+      "slope_recent": 250.5,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    },
+    {
+      "full_name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
+      "created_at": "2026-11-21T14:40:27Z",
+      "age_days": 7,
+      "stars_now": 4644,
+      "cumulative": 4645,
+      "daily_latest": 215,
+      "daily_today_partial": 103,
+      "daily_avg": 663.5714285714286,
+      "slope_recent": 243.0,
+      "slope_window": 3,
+      "trend": "减速",
+      "trend_ratio": 0.35396941005098326
+    },
+    {
+      "full_name": "stellarr-studio/kelvaroq",
+      "url": "https://github.com/stellarr-studio/kelvaroq",
+      "description": "Experimental Xbox Series compatibility runtime for Windows x64, built in Rust.",
+      "created_at": "2026-11-24T22:58:04Z",
+      "age_days": 3,
+      "stars_now": 547,
+      "cumulative": 547,
+      "daily_latest": 164,
+      "daily_today_partial": 30,
+      "daily_avg": 182.33333333333334,
+      "slope_recent": 240.0,
+      "slope_window": 3,
+      "trend": "样本不足",
+      "trend_ratio": null
+    }
+  ],
+  "series": {
+    "trustno1-coder/VIctory-NVIDIA": {
+      "2026-11-25": 49,
+      "2026-11-26": 157,
+      "2026-11-27": 4212,
+      "2026-11-28": 1568
+    },
+    "nexu-io/opengame": {
+      "2026-11-25": 5,
+      "2026-11-26": 1506,
+      "2026-11-27": 988,
+      "2026-11-28": 323
+    },
+    "4lwayz/portwatch-vi": {
+      "2026-11-22": 78,
+      "2026-11-23": 1168,
+      "2026-11-24": 1853,
+      "2026-11-25": 1448,
+      "2026-11-26": 1541,
+      "2026-11-27": 809,
+      "2026-11-28": 249,
+      "2026-11-21": 1
+    },
+    "Reukix/Reloc": {
+      "2026-11-25": 150,
+      "2026-11-26": 930,
+      "2026-11-27": 839,
+      "2026-11-28": 512
+    },
+    "alesha-pro/llm.asm": {
+      "2026-11-25": 701,
+      "2026-11-26": 1037,
+      "2026-11-27": 643,
+      "2026-11-28": 286
+    },
+    "Pixel679-cmyk/windows-titlebar-blur-customizer": {
+      "2026-11-26": 688,
+      "2026-11-27": 818,
+      "2026-11-28": 3
+    },
+    "Marvisak/VIctory": {
+      "2026-11-23": 5893,
+      "2026-11-24": 5649,
+      "2026-11-25": 1108,
+      "2026-11-26": 780,
+      "2026-11-27": 445,
+      "2026-11-28": 188
+    },
+    "DeadInternetStudios/100x-engineer-skill": {
+      "2026-11-23": 21,
+      "2026-11-24": 3,
+      "2026-11-25": 45,
+      "2026-11-26": 42,
+      "2026-11-27": 1056,
+      "2026-11-28": 406
+    },
+    "ZigZagBoi1/ScarlettPort": {
+      "2026-11-24": 280,
+      "2026-11-25": 79,
+      "2026-11-26": 406,
+      "2026-11-27": 628,
+      "2026-11-28": 119
+    },
+    "zortos293/XSEmu": {
+      "2026-11-23": 0,
+      "2026-11-24": 0,
+      "2026-11-25": 0,
+      "2026-11-26": 760,
+      "2026-11-27": 178,
+      "2026-11-28": 42
+    },
+    "gary23w/f-ck_data_brokers": {
+      "2026-11-26": 468,
+      "2026-11-27": 454,
+      "2026-11-28": 250
+    },
+    "peak85-sketch/stardew-valley-mod-manager": {
+      "2026-11-23": 0,
+      "2026-11-24": 509,
+      "2026-11-25": 0,
+      "2026-11-26": 0,
+      "2026-11-27": 659,
+      "2026-11-28": 245
+    },
+    "umbradev315/ffmpeg-video-audio-converter": {
+      "2026-11-23": 1,
+      "2026-11-24": 549,
+      "2026-11-25": 0,
+      "2026-11-26": 0,
+      "2026-11-27": 658,
+      "2026-11-28": 120
+    },
+    "ProjectLeonida/mandy": {
+      "2026-11-23": 672,
+      "2026-11-24": 1314,
+      "2026-11-25": 366,
+      "2026-11-26": 181,
+      "2026-11-27": 475,
+      "2026-11-28": 171
+    },
+    "qianyiai/KuroCat": {
+      "2026-11-22": 205,
+      "2026-11-23": 234,
+      "2026-11-24": 330,
+      "2026-11-25": 384,
+      "2026-11-26": 420,
+      "2026-11-27": 233,
+      "2026-11-28": 96,
+      "2026-11-21": 18
+    },
+    "linjiejim/ohmwork": {
+      "2026-11-24": 5,
+      "2026-11-25": 3,
+      "2026-11-26": 390,
+      "2026-11-27": 178,
+      "2026-11-28": 33
+    },
+    "INK-Q/agy-fast": {
+      "2026-11-22": 370,
+      "2026-11-23": 195,
+      "2026-11-24": 503,
+      "2026-11-25": 250,
+      "2026-11-26": 219,
+      "2026-11-27": 320,
+      "2026-11-28": 248,
+      "2026-11-19": 34,
+      "2026-11-20": 166,
+      "2026-11-21": 52
+    },
+    "lsernau/grh-lean": {
+      "2026-11-25": 575,
+      "2026-11-26": 371,
+      "2026-11-27": 130,
+      "2026-11-28": 40
+    },
+    "EL4CTEO/fast-anything": {
+      "2026-11-22": 1989,
+      "2026-11-23": 961,
+      "2026-11-24": 412,
+      "2026-11-25": 330,
+      "2026-11-26": 271,
+      "2026-11-27": 215,
+      "2026-11-28": 103,
+      "2026-11-21": 364
+    },
+    "stellarr-studio/kelvaroq": {
+      "2026-11-24": 0,
+      "2026-11-25": 37,
+      "2026-11-26": 316,
+      "2026-11-27": 164,
+      "2026-11-28": 30
+    }
+  }
+}
